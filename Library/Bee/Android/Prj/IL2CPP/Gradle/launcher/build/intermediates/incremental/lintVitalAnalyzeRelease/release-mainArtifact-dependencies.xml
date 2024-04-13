@@ -1,0 +1,16 @@
+<dependencies>
+  <compile
+      roots="D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle@@:tuanjieLibrary::release">
+    <dependency
+        name="D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle@@:tuanjieLibrary::release"
+        simpleName="Gradle:tuanjieLibrary"/>
+  </compile>
+  <package
+      roots="D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle@@:tuanjieLibrary::release,__local_aars__:D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle\tuanjieLibrary\libs\unity-classes.jar:unspecified@jar">
+    <dependency
+        name="D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle@@:tuanjieLibrary::release"
+        simpleName="Gradle:tuanjieLibrary"/>
+    <dependency
+        name="__local_aars__:D:\Users\zheng\Educate\Library\Bee\Android\Prj\IL2CPP\Gradle\tuanjieLibrary\libs\unity-classes.jar:unspecified@jar"/>
+  </package>
+</dependencies>
