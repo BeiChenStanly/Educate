@@ -31,8 +31,8 @@ public class GameEnd : MonoBehaviour
             {2,chemistry}
         };
         Dictionary<string, string> questions = new Dictionary<string, string>();
-        NewData data = JsonUtility.FromJson<NewData>(stp[PlayerPrefs.GetInt("subject")].text);
-        foreach (NewQAPair item in data.questions)
+        Data data = JsonUtility.FromJson<Data>(stp[PlayerPrefs.GetInt("subject")].text);
+        foreach (QAPair item in data.questions)
         {
             questions[item.question] = item.answer;
         }

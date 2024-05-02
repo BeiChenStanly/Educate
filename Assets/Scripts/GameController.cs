@@ -5,6 +5,27 @@ using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+public enum E_difficuly
+{
+    Easy,
+    Normal,
+    Hard,
+    Impossible
+}
+
+[Serializable]
+public class QAPair
+{
+    public string question;
+    public string answer;
+    public E_difficuly difficuly;
+}
+
+[Serializable]
+public class Data
+{
+    public List<QAPair> questions;
+}
 public class GameController : MonoBehaviour
 {
     public TextAsset physics;
@@ -51,8 +72,8 @@ public class GameController : MonoBehaviour
             {2,chemistry}
         };
         time = Time.time;
-        NewData data = JsonUtility.FromJson<NewData>(stp[PlayerPrefs.GetInt("subject")].text);
-        foreach (NewQAPair item in data.questions)
+        Data data = JsonUtility.FromJson<Data>(stp[PlayerPrefs.GetInt("subject")].text);
+        foreach (QAPair item in data.questions)
         {
             questions[item.question] = item.answer;
             difficulties[item.question] = item.difficuly;

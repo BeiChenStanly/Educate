@@ -1019,6 +1019,12 @@
         "name": "UnityAnalytics",
         "dependencies": [
           {
+            "name": "Required by Analytics Performance Reporting (See Analytics Services Window)",
+            "scenes": [],
+            "dependencyType": 3,
+            "icon": "class/PlayerSettings"
+          },
+          {
             "name": "Required by PerformanceReporting Module",
             "scenes": [],
             "dependencyType": 2,
