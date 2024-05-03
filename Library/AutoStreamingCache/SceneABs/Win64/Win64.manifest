@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+CRC: 4115644269
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: 66b76bf45c65a57bcc05b59eedf85d96.abas
+      Dependencies: {}
+    Info_1:
+      Name: 414a1e07b7c14c249b6c86b6671831f3.abas
+      Dependencies:
+        Dependency_0: 66b76bf45c65a57bcc05b59eedf85d96.abas
+    Info_2:
+      Name: b071b80c42ead8949a9d3fd992571810.abas
+      Dependencies:
+        Dependency_0: 66b76bf45c65a57bcc05b59eedf85d96.abas

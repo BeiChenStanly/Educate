@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638486962271451587
-    m_Hash: 1218246720
+      ticks: 638502981678363709
+    m_Hash: 1703838028
   m_LockFileStatus:
     m_FilePath: D:/Users/zheng/Educate/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638486962282808114
-    m_Hash: 2246163897
+      ticks: 638502981678404110
+    m_Hash: 895174004
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,60 @@ m_LocalPackages:
 m_ProjectPath: D:/Users/zheng/Educate/Packages
 m_EditorVersion: 2022.3.2t4 (bc2bb86cbcb7)
 m_ResolvedPackages:
+- packageId: com.qq.weixin.minigame@https://gitee.com/wechat-minigame/minigame-tuanjie-transform-sdk.git
+  testable: 0
+  isDirectDependency: 1
+  version: 0.1.10
+  source: 5
+  resolvedPath: D:\Users\zheng\Educate\Library\PackageCache\com.qq.weixin.minigame@55fd892f10
+  assetPath: Packages/com.qq.weixin.minigame
+  name: com.qq.weixin.minigame
+  displayName: WXSDK
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: WeChat Mini Game Tuanjie Engine Adapter SDK Package.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - Tuanjie
+  - WX
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
@@ -263,12 +317,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.instantgame@1.0.6
+- packageId: com.unity.instantgame@1.0.10
   testable: 0
   isDirectDependency: 1
-  version: 1.0.6
+  version: 1.0.10
   source: 1
-  resolvedPath: D:\Users\zheng\Educate\Library\PackageCache\com.unity.instantgame@1.0.6
+  resolvedPath: D:\Users\zheng\Educate\Library\PackageCache\com.unity.instantgame@1.0.10
   assetPath: Packages/com.unity.instantgame
   name: com.unity.instantgame
   displayName: Project Instant Game
@@ -302,6 +356,7 @@ m_ResolvedPackages:
     - 1.0.7
     - 1.0.8
     - 1.0.9
+    - 1.0.10
     compatible:
     - 1.0.3
     - 1.0.4
@@ -309,7 +364,8 @@ m_ResolvedPackages:
     - 1.0.7
     - 1.0.8
     - 1.0.9
-    recommended: 1.0.9
+    - 1.0.10
+    recommended: 1.0.10
     deprecated: []
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
@@ -355,7 +411,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638403059570000000
+  datePublishedTicks: 638494502430000000
   documentationUrl: 
   hasRepository: 0
   repository:
@@ -490,8 +546,10 @@ m_ResolvedPackages:
     - 3.0.4
     - 3.0.5
     - 3.0.6
+    - 3.2.0-pre.9
     compatible:
     - 3.0.6
+    - 3.2.0-pre.9
     recommended: 3.0.6
     deprecated: []
   dependencies:
@@ -731,6 +789,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -827,11 +886,13 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     compatible:
     - 1.8.0
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     recommended: 1.8.0
     deprecated:
     - 1.8.0-pre.1

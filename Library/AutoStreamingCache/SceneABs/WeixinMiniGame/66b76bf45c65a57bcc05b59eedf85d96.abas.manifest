@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 403869440
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4aeba53cb3a664ccc19ccdaa0561ece
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae0d50e34c2aa32647a02630f4f671b1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Packages/com.unity.instantgame/dummy.png
+Dependencies: []

@@ -2,18 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - DropFound
-    - EnterNext
-    - EnterSingle
     - Exit
-    - GameController
-    - GameEnd
-    - ReternMain
-    - SingleController
-    - SingleEnd
+    - StartGame
+    - TimeFound
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -27,9 +20,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
-    - UnityEngine.UI.Outline
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
     WxEditor.dll:
@@ -51,302 +44,11 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
     - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
     - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/FinalScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 29
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16788}
-    - Class: 114
-      Script: {instanceID: 17646}
-    - Class: 114
-      Script: {instanceID: 17786}
-    - Class: 114
-      Script: {instanceID: 17990}
-    - Class: 114
-      Script: {instanceID: 18272}
-    - Class: 114
-      Script: {instanceID: 19032}
-    - Class: 114
-      Script: {instanceID: 19826}
-    - Class: 114
-      Script: {instanceID: 20094}
-    - Class: 114
-      Script: {instanceID: 20260}
-    - Class: 114
-      Script: {instanceID: 20462}
-    - Class: 114
-      Script: {instanceID: 20544}
-    - Class: 114
-      Script: {instanceID: 20760}
-    - Class: 114
-      Script: {instanceID: 21222}
-    - Class: 114
-      Script: {instanceID: 21230}
-    - Class: 114
-      Script: {instanceID: 21978}
-    - Class: 114
-      Script: {instanceID: 22256}
-    - Class: 114
-      Script: {instanceID: 33576}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/GameScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 29
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16788}
-    - Class: 114
-      Script: {instanceID: 17786}
-    - Class: 114
-      Script: {instanceID: 17990}
-    - Class: 114
-      Script: {instanceID: 18272}
-    - Class: 114
-      Script: {instanceID: 18534}
-    - Class: 114
-      Script: {instanceID: 20462}
-    - Class: 114
-      Script: {instanceID: 20544}
-    - Class: 114
-      Script: {instanceID: 20760}
-    - Class: 114
-      Script: {instanceID: 21222}
-    - Class: 114
-      Script: {instanceID: 21546}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SingleFinal.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 29
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16788}
-    - Class: 114
-      Script: {instanceID: 17512}
-    - Class: 114
-      Script: {instanceID: 17646}
-    - Class: 114
-      Script: {instanceID: 17786}
-    - Class: 114
-      Script: {instanceID: 17990}
-    - Class: 114
-      Script: {instanceID: 18272}
-    - Class: 114
-      Script: {instanceID: 19032}
-    - Class: 114
-      Script: {instanceID: 20094}
-    - Class: 114
-      Script: {instanceID: 20260}
-    - Class: 114
-      Script: {instanceID: 20462}
-    - Class: 114
-      Script: {instanceID: 20544}
-    - Class: 114
-      Script: {instanceID: 20760}
-    - Class: 114
-      Script: {instanceID: 21222}
-    - Class: 114
-      Script: {instanceID: 21230}
-    - Class: 114
-      Script: {instanceID: 21978}
-    - Class: 114
-      Script: {instanceID: 22256}
-    - Class: 114
-      Script: {instanceID: 33576}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SingleScene.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 29
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16788}
-    - Class: 114
-      Script: {instanceID: 17786}
-    - Class: 114
-      Script: {instanceID: 17990}
-    - Class: 114
-      Script: {instanceID: 18272}
-    - Class: 114
-      Script: {instanceID: 20462}
-    - Class: 114
-      Script: {instanceID: 20544}
-    - Class: 114
-      Script: {instanceID: 20760}
-    - Class: 114
-      Script: {instanceID: 21222}
-    - Class: 114
-      Script: {instanceID: 21546}
-    - Class: 114
-      Script: {instanceID: 22868}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/StartScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -371,35 +73,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16788}
+      Script: {instanceID: 16802}
     - Class: 114
-      Script: {instanceID: 17646}
+      Script: {instanceID: 17674}
     - Class: 114
-      Script: {instanceID: 17786}
+      Script: {instanceID: 17812}
     - Class: 114
-      Script: {instanceID: 17990}
+      Script: {instanceID: 18022}
     - Class: 114
-      Script: {instanceID: 18272}
+      Script: {instanceID: 18312}
     - Class: 114
-      Script: {instanceID: 19032}
+      Script: {instanceID: 18440}
     - Class: 114
-      Script: {instanceID: 20094}
+      Script: {instanceID: 19090}
     - Class: 114
-      Script: {instanceID: 20462}
+      Script: {instanceID: 19534}
     - Class: 114
-      Script: {instanceID: 20760}
+      Script: {instanceID: 20152}
     - Class: 114
-      Script: {instanceID: 21222}
+      Script: {instanceID: 20202}
     - Class: 114
-      Script: {instanceID: 21230}
+      Script: {instanceID: 20524}
     - Class: 114
-      Script: {instanceID: 21978}
+      Script: {instanceID: 20606}
     - Class: 114
-      Script: {instanceID: 22256}
+      Script: {instanceID: 20828}
     - Class: 114
-      Script: {instanceID: 22440}
+      Script: {instanceID: 21292}
     - Class: 114
-      Script: {instanceID: 33576}
+      Script: {instanceID: 21300}
+    - Class: 114
+      Script: {instanceID: 22058}
+    - Class: 114
+      Script: {instanceID: 22352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -419,12 +125,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 0249933f35dcc970b31eaae0159aebf9
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -526,13 +226,7 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: SingleEnd
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnterNext
+    className: StartGame
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -674,9 +368,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TimeFound
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0249933f35dcc970b31eaae0159aebf9
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: f6831ac80ec81c5d5b370c0ed0fee997
@@ -697,7 +403,7 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ec3e86b1d4de9b657a8b98613a6a581b
+      Hash: 13afd6f827f3e2db4979ace97f67e718
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameController
@@ -743,6 +449,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Flow
     namespaceName: Unity.VisualScripting
     className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 13afd6f827f3e2db4979ace97f67e718
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ChangeJson
   - hash:
       serializedVersion: 2
       Hash: 0286ed84936a6e3c4dba049ae21a7b1c
@@ -829,6 +541,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DropFound
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -847,7 +565,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 13afd6f827f3e2db4979ace97f67e718
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameEnd
@@ -1208,12 +926,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnterSingle
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
@@ -1255,12 +967,6 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: ec3e86b1d4de9b657a8b98613a6a581b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SingleController
-  - hash:
-      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1292,12 +998,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DropFound
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Wx
     namespaceName: 
     className: WXTouchInputOverride
@@ -1316,8 +1016,4 @@ ScriptsOnlyBuild:
   platform: 47
   scenePathNames:
   - Assets/Scenes/StartScene.unity
-  - Assets/Scenes/GameScene.unity
-  - Assets/Scenes/FinalScene.unity
-  - Assets/Scenes/SingleFinal.unity
-  - Assets/Scenes/SingleScene.unity
-  playerPath: D:/zgshuo/Out/webgl
+  playerPath: C:/Users/zheng/WeChatProjects/Educate/webgl

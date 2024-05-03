@@ -4,22 +4,105 @@
 AutoStreamingSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  mSearchMode: 15
+  mSearchMode: 7
   mCustomSearchFile: 
   mTextureSearchString: 
   mMeshSearchString: 
-  mTextures: []
-  mAudios: []
+  mTextures:
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/Pictrues/background.jpg
+    localFileId: 2800000
+    rtMem: 1179648
+    warningFlag: 0
+    refs:
+    - 0
+    - 1
+    - 2
+    maxPlaceholderSize: 196640
+    width: 2048
+    height: 1152
+    abSize: 139860
+  mAudios:
+  - onDemandDownload: 1
+    assetPath: Assets/Musics/Correct.wav
+    localFileId: 8300000
+    rtMem: 19688
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Musics/backmusic.mp3
+    localFileId: 8300000
+    rtMem: 209970
+    warningFlag: 0
+    refs:
+    - 1
+  - onDemandDownload: 1
+    assetPath: Assets/Musics/Wrong.wav
+    localFileId: 8300000
+    rtMem: 8197
+    warningFlag: 0
+    refs:
+    - 1
   mMeshes: []
   mAnimations: []
-  mSharedSceneAssets: []
-  mScenes: []
+  mSharedSceneAssets:
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Fonts/hanyiwenhei-85W.ttf
+    assetType: 28
+    rtMem: 65536
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Pictrues/background.jpg
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Texts/chemistry.json
+    assetType: 49
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Texts/chinese.json
+    assetType: 49
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Assets/Texts/physics.json
+    assetType: 49
+    rtMem: 0
+    refs: 0100000002000000
+  - includedInSharedAssetBundle: 1
+    assetPath: Resources/tuanjie_builtin_extra
+    assetType: 213
+    rtMem: 0
+    refs: 0100000002000000
+  mScenes:
+  - onDemandDownload: 0
+    assetPath: Assets/Scenes/StartScene.unity
+    localFileId: -1
+    rtMem: 0
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Scenes/GameScene.unity
+    localFileId: -1
+    rtMem: 94489
+    warningFlag: 0
+    refs: []
+  - onDemandDownload: 1
+    assetPath: Assets/Scenes/FinalScene.unity
+    localFileId: -1
+    rtMem: 82653
+    warningFlag: 0
+    refs: []
   mConfigCCD:
     useCCD: 0
-    uosSecret: 
-    uosAppid: 
-    bucketUuid: 
-    bucketName: 
-    badgeName: 
+    uosSecret: 7e3e502ed77345d08ef372cfb3b873c0
+    uosAppid: e274f07c-dde7-4ba7-a55c-8d13194c6115
+    bucketUuid: 4af65d93-008c-41b2-b01d-3b90fe7363a7
+    bucketName: Educate
+    badgeName: v1
     ttAppid: 
     targetPlatfrom: 

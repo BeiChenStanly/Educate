@@ -14,7 +14,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: StanlyCompany
-  productName: JuniorHigh
+  productName: Educate
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -91,13 +91,13 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  autoStreaming: 0
-  useFontStreaming: 0
+  autoStreaming: 1
+  useFontStreaming: 1
   cacheASTextureAB: 0
   maxCacheSize: 0
   maxConcurrentLoad: 0
-  autoStreamingId: /v1/buckets//release_by_badge//content
-  instantGameAppId: 
+  autoStreamingId: /v1/buckets/4af65d93-008c-41b2-b01d-3b90fe7363a7/release_by_badge/v1/content
+  instantGameAppId: e274f07c-dde7-4ba7-a55c-8d13194c6115
   bakeCollisionMeshes: 0
   forceSingleInstance: 0
   useFlipModelSwapchain: 1
@@ -156,7 +156,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 3.3.5
+  bundleVersion: 3.3.6
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -178,6 +178,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.StanlyCompany.Learning
+    Standalone: com.StanlyCompany.Shuo-knowledge
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -984,7 +985,7 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  selectedPlatform: 4
+  selectedPlatform: 0
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
@@ -1086,8 +1087,8 @@ PlayerSettings:
   weixinMiniGameShowDiagnostics: 0
   weixinMiniGameDataCaching: 0
   weixinMiniGameDebugSymbols: 1
-  weixinMiniGameEmscriptenArgs: ' -s EXPORTED_FUNCTIONS=_main,_sbrk,_emscripten_stack_get_base,_emscripten_stack_get_end
-    -s TOTAL_MEMORY=256MB --profiling-funcs '
+  weixinMiniGameEmscriptenArgs: ' -s EXPORTED_FUNCTIONS=_sbrk,_emscripten_stack_get_base,_emscripten_stack_get_end
+    -s ERROR_ON_UNDEFINED_SYMBOLS=0 -s TOTAL_MEMORY=256MB --profiling-funcs '
   weixinMiniGameModulesDirectory: 
   weixinMiniGameTemplate: PROJECT:WXTemplate2022TJ
   weixinMiniGameAnalyzeBuildSize: 0

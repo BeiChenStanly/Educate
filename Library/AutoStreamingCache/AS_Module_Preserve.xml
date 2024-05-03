@@ -1,0 +1,20 @@
+<linker>
+    <assembly fullname="UnityEngine.AutoStreamingModule">
+        <type fullname="UnityEngine.AutoStreaming" preserve="all" />
+    </assembly>
+    <assembly fullname="UnityEngine.AssetBundleModule">
+        <type fullname="UnityEngine.AssetBundle" preserve="all" />
+    </assembly>
+    <assembly fullname="UnityEngine.JSONSerializeModule">
+        <type fullname="UnityEngine.JsonUtility" preserve="all" />
+    </assembly>
+    <assembly fullname="UnityEngine.UnityWebRequestModule">
+        <type fullname="UnityEngine.Networking.UnityWebRequest" preserve="all" />
+    </assembly>
+    <assembly fullname="UnityEngine">
+        <type fullname="UnityEngine.GameObject" preserve="all" />
+    </assembly>
+    <assembly fullname="Unity.Timeline">
+        <type fullname="UnityEngine.Timeline.TimelineAsset" preserve="all" />
+    </assembly>
+</linker>

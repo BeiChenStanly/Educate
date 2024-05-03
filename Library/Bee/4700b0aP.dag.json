@@ -165,7 +165,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -191,7 +191,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 44328,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.TestRunner.rsp2"
@@ -1798,7 +1798,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 50284,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -1810,7 +1810,7 @@
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 50391,
-      "PayloadLength": 37834,
+      "PayloadLength": 37933,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -1822,9 +1822,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88311,
+      "PayloadOffset": 88410,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.rsp2"
@@ -1836,9 +1836,6 @@
       "DisplayName": "Csc UnityEngine.UI",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -2027,6 +2024,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs",
@@ -2147,15 +2147,15 @@
       "DebugActionIndex": 77
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.FontABTool.dll_D3745EB4DA4B6B64",
-      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm\" \"Assets\\WX-WASM-SDK-V2\\Runtime\\Plugins\\Unity.FontABTool.dll\"",
+      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
+      "DisplayName": "MovedFromExtractor Unity.FontABTool.dll_C3DE235E1539487D",
+      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.FontABTool.dll_C3DE235E1539487D.mvfrm\" \"Library\\PackageCache\\com.qq.weixin.minigame@55fd892f10\\Runtime\\Plugins\\Unity.FontABTool.dll\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm"
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm"
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -2180,7 +2180,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88441,
+      "PayloadOffset": 88540,
       "PayloadLength": 5881,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2194,7 +2194,6 @@
       "DisplayName": "MovedFromExtractorCombine UnityEngine.UI.dll",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.dll.mvfrm\" \"@Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp\"",
       "Inputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -2261,6 +2260,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp"
@@ -2347,9 +2347,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94430,
+      "PayloadOffset": 94529,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -2360,8 +2360,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94540,
-      "PayloadLength": 35858,
+      "PayloadOffset": 94639,
+      "PayloadLength": 35957,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -2373,9 +2373,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 130487,
+      "PayloadOffset": 130685,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.rsp2"
@@ -2387,9 +2387,6 @@
       "DisplayName": "Csc Unity.TextMeshPro",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -2578,6 +2575,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.ref.dll",
@@ -2695,7 +2695,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 130620,
+      "PayloadOffset": 130818,
       "PayloadLength": 5957,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -2710,7 +2710,6 @@
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.dll.mvfrm\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -2777,6 +2776,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
@@ -2864,9 +2864,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136682,
+      "PayloadOffset": 136880,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -2877,8 +2877,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 136789,
-      "PayloadLength": 36942,
+      "PayloadOffset": 136987,
+      "PayloadLength": 37041,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -2890,9 +2890,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 173817,
+      "PayloadOffset": 174114,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.rsp2"
@@ -2904,9 +2904,6 @@
       "DisplayName": "Csc Unity.Timeline",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -3095,6 +3092,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.ref.dll",
@@ -3208,7 +3208,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 173947,
+      "PayloadOffset": 174244,
       "PayloadLength": 5957,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -3223,7 +3223,6 @@
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.dll.mvfrm\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -3290,6 +3289,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.Timeline.dll.mvfrm.rsp"
@@ -3377,9 +3377,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 180021,
+      "PayloadOffset": 180318,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -3390,8 +3390,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 180140,
-      "PayloadLength": 84664,
+      "PayloadOffset": 180437,
+      "PayloadLength": 84763,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -3403,9 +3403,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 264902,
+      "PayloadOffset": 265298,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.rsp2"
@@ -3417,9 +3417,6 @@
       "DisplayName": "Csc Unity.VisualScripting.Core",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -3608,6 +3605,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.ref.dll",
@@ -4076,7 +4076,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 265044,
+      "PayloadOffset": 265440,
       "PayloadLength": 5957,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4091,7 +4091,6 @@
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -4158,6 +4157,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
@@ -4245,9 +4245,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Wx.UnityAdditionalFile.txt",
       "DisplayName": "Writing Wx.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 271094,
+      "PayloadOffset": 271490,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Wx.UnityAdditionalFile.txt"
@@ -4258,8 +4258,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Wx.rsp",
       "DisplayName": "Writing Wx.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 271189,
-      "PayloadLength": 30818,
+      "PayloadOffset": 271585,
+      "PayloadLength": 31241,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -4271,9 +4271,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Wx.rsp2",
       "DisplayName": "Writing Wx.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 302081,
-      "PayloadLength": 0,
-      "PayloadDebugContentSnippet": "",
+      "PayloadOffset": 302900,
+      "PayloadLength": 35,
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Wx.rsp2"
@@ -4285,9 +4285,6 @@
       "DisplayName": "Csc Wx",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Wx.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Wx.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -4476,14 +4473,19 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.ref.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/HideLoadingPage.cs",
-        "Assets/WX-WASM-SDK-V2/Runtime/WX.cs",
-        "Assets/WX-WASM-SDK-V2/Runtime/WXBase.cs",
-        "Assets/WX-WASM-SDK-V2/Runtime/WXProfileStatsScript.cs",
-        "Assets/WX-WASM-SDK-V2/Runtime/WXTouchInputOverride.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/HideLoadingPage.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WebAES.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WebMD5.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WX.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXBase.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXProfileStatsScript.cs",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXTouchInputOverride.cs",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Wx.rsp"
@@ -4514,13 +4516,14 @@
           "Value": "0"
         }
       ],
+      "CachingMode": "ByDirectInputs",
       "DebugActionIndex": 104
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Wx.dll.mvfrm.rsp",
       "DisplayName": "Writing Wx.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 302164,
+      "PayloadOffset": 303018,
       "PayloadLength": 5957,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -4535,7 +4538,6 @@
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/4700b0aP.dag/Wx.dll.mvfrm\" \"@Library/Bee/artifacts/4700b0aP.dag/Wx.dll.mvfrm.rsp\"",
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -4602,6 +4604,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Wx.dll.mvfrm.rsp"
@@ -4689,9 +4692,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 308238,
+      "PayloadOffset": 309092,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -4702,8 +4705,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 308357,
-      "PayloadLength": 80074,
+      "PayloadOffset": 309211,
+      "PayloadLength": 80173,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -4715,9 +4718,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 388529,
+      "PayloadOffset": 389482,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.rsp2"
@@ -4729,9 +4732,6 @@
       "DisplayName": "Csc Unity.VisualScripting.Flow",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -4920,6 +4920,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.ref.dll",
@@ -5382,7 +5385,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 388671,
+      "PayloadOffset": 389624,
       "PayloadLength": 6045,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5398,7 +5401,6 @@
       "Inputs": [
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_44402DD1EF32E71E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -5465,6 +5467,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
@@ -5553,9 +5556,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 394834,
+      "PayloadOffset": 395787,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -5566,8 +5569,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 394954,
-      "PayloadLength": 34078,
+      "PayloadOffset": 395907,
+      "PayloadLength": 34177,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -5579,9 +5582,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 429131,
+      "PayloadOffset": 430183,
       "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Phisi",
+      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.rsp2"
@@ -5593,9 +5596,6 @@
       "DisplayName": "Csc Unity.VisualScripting.State",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -5784,6 +5784,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.Core.ref.dll",
@@ -5877,7 +5880,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 429274,
+      "PayloadOffset": 430326,
       "PayloadLength": 6133,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -5894,7 +5897,6 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_44402DD1EF32E71E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_8B510E28713C5BCD.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -5961,6 +5963,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
@@ -6050,9 +6053,9 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 435513,
+      "PayloadOffset": 436565,
       "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Phisics",
+      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -6063,8 +6066,8 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 435621,
-      "PayloadLength": 31308,
+      "PayloadOffset": 436673,
+      "PayloadLength": 31402,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -6076,7 +6079,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 467016,
+      "PayloadOffset": 468162,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -6090,9 +6093,6 @@
       "DisplayName": "Csc Assembly-CSharp",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.rsp\" \"@Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.rsp2\"",
       "Inputs": [
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
@@ -6281,6 +6281,9 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WeixinMiniGameModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed/UnityEngine.XRModule.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Unity.TextMeshPro.ref.dll",
@@ -6290,15 +6293,15 @@
         "Library/Bee/artifacts/4700b0aP.dag/Unity.VisualScripting.State.ref.dll",
         "Library/Bee/artifacts/4700b0aP.dag/UnityEngine.UI.ref.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Wx.ref.dll",
+        "Assets/Scripts/ChangeJson.cs",
         "Assets/Scripts/DropFound.cs",
-        "Assets/Scripts/EnterNext.cs",
-        "Assets/Scripts/EnterSingle.cs",
         "Assets/Scripts/Exit.cs",
         "Assets/Scripts/GameController.cs",
         "Assets/Scripts/GameEnd.cs",
+        "Assets/Scripts/PlayerPrefsX.cs",
         "Assets/Scripts/ReternMain.cs",
-        "Assets/Scripts/SingleController.cs",
-        "Assets/Scripts/SingleEnd.cs",
+        "Assets/Scripts/StartGame.cs",
+        "Assets/Scripts/TimeFound.cs",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.rsp"
@@ -6395,7 +6398,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 467112,
+      "PayloadOffset": 468258,
       "PayloadLength": 6377,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -6415,7 +6418,6 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_8B510E28713C5BCD.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_AFEBB1D81BBD5298.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_DCCEC527BF24A00A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_D3745EB4DA4B6B64.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_B282980C62A2205E.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_BDB9F7206F3F81BC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_76559EBA3483257A.mvfrm",
@@ -6482,6 +6484,7 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WeixinMiniGameModule.dll_C0B55A502F2FDBAF.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_5E596239F30799FC.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_3EBE7ED7F67B5A3E.mvfrm",
+        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/4700b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp"
@@ -6843,13 +6846,10 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Phisics/Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll\" -a=\"D:/Users/zheng/Phisics/Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll\" -a=\"D:/Users/zheng/Phisics/Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies/Wx.dll\" -a=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll\" -a=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Users/zheng/Phisics/Assets/WX-WASM-SDK-V2/Runtime/Plugins\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed\" -s=\"D:/Users/zheng/Phisics/Library/Bee/PlayerScriptAssemblies\" -s=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT\" -s=\"D:/Users/zheng/Phisics/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Wx.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/Managed\" -s=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll",
-        "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll",
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
         "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
@@ -6859,6 +6859,9 @@
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
         "Library/Bee/PlayerScriptAssemblies/Wx.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
+        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
         "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -7010,19 +7013,19 @@
       "File": "Assets/mcs.rsp"
     },
     {
-      "File": "Assets/WX-WASM-SDK-V2/Runtime/csc.rsp"
-    },
-    {
-      "File": "Assets/WX-WASM-SDK-V2/Runtime/Plugins/LitJson.dll"
-    },
-    {
-      "File": "Assets/WX-WASM-SDK-V2/Runtime/Plugins/Unity.FontABTool.dll"
-    },
-    {
-      "File": "Assets/WX-WASM-SDK-V2/Runtime/Plugins/wx-runtime.dll"
-    },
-    {
       "File": "Library/Bee/4700b0aP-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/csc.rsp"
+    },
+    {
+      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
@@ -7087,6 +7090,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/4700b0aP.dag.json",
-  "PayloadsFile": "D:/Users/zheng/Phisics/Library/Bee/4700b0aP.dag.payloads",
+  "PayloadsFile": "D:/Users/zheng/Educate/Library/Bee/4700b0aP.dag.payloads",
   "RelativePathToRoot": "../.."
 }

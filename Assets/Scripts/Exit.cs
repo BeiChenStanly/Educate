@@ -5,13 +5,17 @@ public class Exit : MonoBehaviour
 {
     void Start()
     {
-        GetComponent<Button>().onClick.AddListener(()=>
+        if (Application.platform == RuntimePlatform.WindowsPlayer)
         {
-#if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
-        });
+            GetComponent<Button>().onClick.AddListener(() =>
+            {
+                Application.Quit();
+            });
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
+        
     }
 }

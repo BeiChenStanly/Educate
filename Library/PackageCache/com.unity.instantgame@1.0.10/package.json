@@ -1,0 +1,20 @@
+{
+  "name": "com.unity.instantgame",
+  "displayName": "Project Instant Game",
+  "description": "Project Instant Game adds support for WeixinMiniGame and Android native Instant Game. This package is compatible with Tuanjie Engine or Unity InstantGame version.",
+  "version": "1.0.10",
+  "unity": "2021.2",
+  "unityRelease": "5f1",
+  "keywords": [
+    "Tuanjie",
+	"WeixinMiniGame",
+    "Unity",
+    "Instant Game",
+    "Auto Streaming"
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0",
+    "com.unity.modules.autostreaming": "1.0.0",
+    "nuget.mono-cecil": "1.0.0"
+  }
+}

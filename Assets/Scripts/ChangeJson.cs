@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-public enum e_subject { Physics, Chinese, Chemistry}
+public enum e_subject { physics, chinese, chemistry}
 [Serializable]
 public class NewQAPair
 {
     public string question;
     public string answer;
     public E_difficuly difficuly;
+    public string part;
     //new operations can be added here
 }
 
@@ -43,15 +44,15 @@ public class ChangeJson : MonoBehaviour
                 newItem.question = item.question;
                 newItem.answer = item.answer;
                 newItem.difficuly = item.difficuly;
+                newItem.part = "尚未完成的功能";
                 //new operations can be added here
-
                 newQuestions.Add(newItem);
             }
 
             //save the new data to the text file
             newData.questions = newQuestions;
             string json = JsonUtility.ToJson(newData, true);
-            File.WriteAllText($"Assets/Texts/New{(e_subject)i}.json", json);
+            File.WriteAllText($"Assets/Texts/{(e_subject)i}.json", json);
         }
     }
 }
