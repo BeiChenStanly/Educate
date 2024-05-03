@@ -53,6 +53,7 @@ public class ChangeJson : MonoBehaviour
             newData.questions = newQuestions;
             string json = JsonUtility.ToJson(newData, true);
             File.WriteAllText($"Assets/Texts/{(e_subject)i}.json", json);
+            newData.questions.Clear();
         }
     }
 }
