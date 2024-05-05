@@ -44,7 +44,7 @@ public class ChangeJson : MonoBehaviour
                 newItem.question = item.question;
                 newItem.answer = item.answer;
                 newItem.difficuly = item.difficuly;
-                newItem.part = "尚未完成的功能";
+                newItem.part = item.part;
                 //new operations can be added here
                 newQuestions.Add(newItem);
             }

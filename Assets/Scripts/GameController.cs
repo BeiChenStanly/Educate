@@ -58,14 +58,19 @@ public class GameController : MonoBehaviour
     int total2;
     int right1;
     int right2;
+    int subject;
+    int[] parts;
     List<int> wrong1 = new List<int>();
     List<int> wrong2 = new List<int>();
     float waittime = 1;
     Data data;
+    List<QAPair> questions=new List<QAPair>();
     void Start()
     {
         playtime = PlayerPrefs.GetInt("playtime") * 30 + 30;
         waittime = PlayerPrefs.GetFloat("waittime");
+        subject = PlayerPrefs.GetInt("subject");
+        parts = PlayerPrefsX.GetIntArray("parts");
         Dictionary<int, TextAsset> stp = new Dictionary<int, TextAsset>()
         {
             {0,physics },
@@ -73,7 +78,19 @@ public class GameController : MonoBehaviour
             {2,chemistry}
         };
         time = Time.time;
-        data = JsonUtility.FromJson<Data>(stp[PlayerPrefs.GetInt("subject")].text);
+        data = JsonUtility.FromJson<Data>(stp[subject].text);
+        foreach (QAPair q in data.questions)
+        {
+            for (int i = 0; i < parts.Length; i++)
+            {
+                if (q.part == ShowAppearance.fdic[subject][parts[i]])
+                {
+                    questions.Add(q);
+                    break;
+                }
+            }
+        }
+        data.questions = questions;
         T1 = GameObject.Find("T1");
         F1 = GameObject.Find("F1");
         T2 = GameObject.Find("T2");
@@ -93,27 +110,27 @@ public class GameController : MonoBehaviour
         F1.GetComponent<Button>().onClick.AddListener(OnClick2);
         T2.GetComponent<Button>().onClick.AddListener(OnClick3);
         F2.GetComponent<Button>().onClick.AddListener(OnClick4);
-        ran1 = OutputRandom(0, data.questions.Count - 1, data.questions.Count - 1);
-        ran2 = OutputRandom(0, data.questions.Count - 1, data.questions.Count - 1);
+        ran1 = OutputRandom(0, data.questions.Count - 1, 2000);
+        ran2 = OutputRandom(0, data.questions.Count - 1, 2000);
     }
 
     void Update()
     {
-        if (i1 >= 200)
+        if (i1 >= ran1.Length)
         {
             i1 = 0;
         }
-        Question1.GetComponent<Text>().text = data.questions[i1].question;
-        Difficulty1.GetComponent<Text>().text = "难度：" + data.questions[i1].difficuly.ToString();
-        Part1.GetComponent<Text>().text = "章节：" + data.questions[i1].part;
+        Question1.GetComponent<Text>().text = data.questions[ran1[i1]].question;
+        Difficulty1.GetComponent<Text>().text = "难度：" + data.questions[ran1[i1]].difficuly.ToString();
+        Part1.GetComponent<Text>().text = "章节：" + data.questions[ran1[i1]].part;
 
-        if (i2 >= 200)
+        if (i2 >= ran2.Length)
         {
             i2 = 0;
         }
-        Question2.GetComponent<Text>().text = data.questions[i2].question;
-        Difficulty2.GetComponent<Text>().text = "难度：" + data.questions[i2].difficuly.ToString();
-        Part2.GetComponent<Text>().text = "章节：" + data.questions[i2].part;
+        Question2.GetComponent<Text>().text = data.questions[ran2[i2]].question;
+        Difficulty2.GetComponent<Text>().text = "难度：" + data.questions[ran2[i2]].difficuly.ToString();
+        Part2.GetComponent<Text>().text = "章节：" + data.questions[ran2[i2]].part;
 
 
         Score1.GetComponent<Text>().text = $"Score:{score1}";
@@ -156,19 +173,13 @@ public class GameController : MonoBehaviour
     {
         if (data.questions[ran1[i1]].answer == "T")
         {
-            if (data.questions[ran1[i1]].difficuly == E_difficuly.Easy) score1 += 5;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Normal) score1 += 10;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Hard) score1 += 15;
-            else score1 += 20;
+            score1 += (int)data.questions[ran1[i1]].difficuly * 5 + 5;
             right1++;
             Correct.GetComponent<AudioSource>().Play();
         }
         else
         {
-            if (data.questions[ran1[i1]].difficuly == E_difficuly.Easy) score1 -= 20;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Normal) score1 -= 15;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Hard) score1 -= 10;
-            else score1 -= 5;
+            score1 -= (int)data.questions[ran1[i1]].difficuly * -5 + 20;
             Wrong.GetComponent<AudioSource>().Play();
             wrong1.Add(ran1[i1]);
         }
@@ -187,19 +198,13 @@ public class GameController : MonoBehaviour
     {
         if (data.questions[ran1[i1]].answer == "F")
         {
-            if (data.questions[ran1[i1]].difficuly == E_difficuly.Easy) score1 += 5;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Normal) score1 += 10;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Hard) score1 += 15;
-            else score1 += 20;
+            score1 += (int)data.questions[ran1[i1]].difficuly * 5 + 5;
             right1++;
             Correct.GetComponent<AudioSource>().Play();
         }
         else
         {
-            if (data.questions[ran1[i1]].difficuly == E_difficuly.Easy) score1 -= 20;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Normal) score1 -= 15;
-            else if (data.questions[ran1[i1]].difficuly == E_difficuly.Hard) score1 -= 10;
-            else score1 -= 5;
+            score1 -= (int)data.questions[ran1[i1]].difficuly * -5 + 20;
             Wrong.GetComponent<AudioSource>().Play();
             wrong1.Add(ran1[i1]);
         }
@@ -213,19 +218,13 @@ public class GameController : MonoBehaviour
     {
         if (data.questions[ran2[i2]].answer == "T")
         {
-            if (data.questions[ran2[i2]].difficuly == E_difficuly.Easy) score2 += 5;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Normal) score2 += 10;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Hard) score2 += 15;
-            else score2 += 20;
+            score2 += (int)data.questions[ran2[i2]].difficuly * 5 + 5;
             right2++;
             Correct.GetComponent<AudioSource>().Play();
         }
         else
         {
-            if (data.questions[ran2[i2]].difficuly == E_difficuly.Easy) score2 -= 20;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Normal) score2 -= 15;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Hard) score2 -= 10;
-            else score2 -= 5;
+            score2 -= (int)data.questions[ran2[i2]].difficuly * -5 + 20;
             Wrong.GetComponent<AudioSource>().Play();
             wrong2.Add(ran2[i2]);
         }
@@ -244,19 +243,13 @@ public class GameController : MonoBehaviour
     {
         if (data.questions[ran2[i2]].answer == "F")
         {
-            if (data.questions[ran2[i2]].difficuly == E_difficuly.Easy) score2 += 5;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Normal) score2 += 10;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Hard) score2 += 15;
-            else score2 += 20;
+            score2 += (int)data.questions[ran2[i2]].difficuly * 5 + 5;
             right2++;
             Correct.GetComponent<AudioSource>().Play();
         }
         else
         {
-            if (data.questions[ran2[i2]].difficuly == E_difficuly.Easy) score2 -= 20;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Normal) score2 -= 15;
-            else if (data.questions[ran2[i2]].difficuly == E_difficuly.Hard) score2 -= 10;
-            else score2 -= 5;
+            score2 -= (int)data.questions[ran2[i2]].difficuly * -5 + 20;
             Wrong.GetComponent<AudioSource>().Play();
             wrong2.Add(ran2[i2]);
         }

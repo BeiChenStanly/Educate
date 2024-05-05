@@ -1,31 +1,43 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class StartGame : MonoBehaviour
 {
-    GameObject slider;
+    List<GameObject> toggles = new List<GameObject>();
+    List<int> parts = new List<int>();
+    GameObject Canvas;
     void Start()
     {
-        try
+        Canvas = GameObject.Find("Canvas");
+        GetComponent<Button>().onClick.AddListener(() =>
         {
-            slider = GameObject.Find("Canvas/Slider");
-        }
-        catch { }
-        GetComponent<Button>().onClick.AddListener(()=>
-        {
-            PlayerPrefs.SetInt("subject", GameObject.Find("Canvas/Dropdown").GetComponent<Dropdown>().value);
-            PlayerPrefs.SetInt("playtime", GameObject.Find("Canvas/TimeDropdown").GetComponent<Dropdown>().value);
             try
             {
-                PlayerPrefs.SetFloat("waittime", (float)System.Math.Round((decimal)(slider.GetComponent<Slider>().value + 0.5), 2, System.MidpointRounding.AwayFromZero));
+                PlayerPrefs.SetInt("subject", GameObject.Find("Canvas/Dropdown").GetComponent<Dropdown>().value);
+                PlayerPrefs.SetInt("playtime", GameObject.Find("Canvas/TimeDropdown").GetComponent<Dropdown>().value);
+                PlayerPrefs.SetFloat("waittime", (float)System.Math.Round((decimal)(GameObject.Find("Canvas/Slider").GetComponent<Slider>().value + 0.5), 2, System.MidpointRounding.AwayFromZero));
             }
             catch { }
+            foreach (Transform child in Canvas.transform)
+            {
+                if (child.tag == "Toggle")
+                {
+                    toggles.Add(child.gameObject);
+                    if (child.gameObject.GetComponent<Toggle>().isOn)
+                    {
+                        parts.Add(int.Parse(child.gameObject.name));
+                    }
+                }
+            }
+            if (parts.Count == 0&&SceneManager.GetActiveScene().name=="StartScene")
+            {
+                Debug.Log("Please select at least one part");
+                return;
+            }
+            PlayerPrefsX.SetIntArray("parts", parts.ToArray());
             SceneManager.LoadScene("GameScene");
         });
-    }
-    void Update()
-    {
-        try { GameObject.Find("Canvas/TimeSeen").GetComponent<Text>().text = $"答完一题的禁用时间：{System.Math.Round((decimal)(slider.GetComponent<Slider>().value + 0.5), 2, System.MidpointRounding.AwayFromZero)}s"; } catch { }
     }
 }

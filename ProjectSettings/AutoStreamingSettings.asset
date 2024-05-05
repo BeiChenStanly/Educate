@@ -22,7 +22,32 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 2048
     height: 1152
-    abSize: 139860
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    localFileId: 28684132378477856
+    rtMem: 1048576
+    warningFlag: 0
+    refs:
+    - 0
+    - res
+    maxPlaceholderSize: 589856
+    width: 1024
+    height: 1024
+    abSize: 0
+  - serializedVersion: 2
+    onDemandDownload: 1
+    assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.png
+    localFileId: 2800000
+    rtMem: 349552
+    warningFlag: 0
+    refs:
+    - res
+    maxPlaceholderSize: 196640
+    width: 512
+    height: 512
+    abSize: 0
   mAudios:
   - onDemandDownload: 1
     assetPath: Assets/Musics/Correct.wav
@@ -88,13 +113,13 @@ AutoStreamingSettings:
   - onDemandDownload: 1
     assetPath: Assets/Scenes/GameScene.unity
     localFileId: -1
-    rtMem: 94489
+    rtMem: 0
     warningFlag: 0
     refs: []
   - onDemandDownload: 1
     assetPath: Assets/Scenes/FinalScene.unity
     localFileId: -1
-    rtMem: 82653
+    rtMem: 0
     warningFlag: 0
     refs: []
   mConfigCCD:
