@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class StartGame : MonoBehaviour
 {
+    public GameObject Chou;
     List<GameObject> toggles = new List<GameObject>();
     List<int> parts = new List<int>();
     GameObject Canvas;
@@ -37,7 +38,14 @@ public class StartGame : MonoBehaviour
                 return;
             }
             PlayerPrefsX.SetIntArray("parts", parts.ToArray());
-            SceneManager.LoadScene("GameScene");
+            if (Chou.GetComponent<Toggle>().isOn)
+            {
+                SceneManager.LoadScene("ChooseScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("GameScene");
+            }
         });
     }
 }

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2211415199
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3c3e5347e4f48dc31fe4a294e828805d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22ef4abe44ba047dd212e1033b95c779
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Pictrues/background.jpg
+Dependencies: []

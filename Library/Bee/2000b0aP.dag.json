@@ -144,17 +144,7 @@
         136,
         137,
         138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147,
-        148,
-        149
+        139
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -177,7 +167,7 @@
       "DisplayName": "Writing UnityEngine.TestRunner.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 222,
-      "PayloadLength": 43220,
+      "PayloadLength": 43082,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -189,7 +179,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.rsp2",
       "DisplayName": "Writing UnityEngine.TestRunner.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 43536,
+      "PayloadOffset": 43398,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
@@ -331,7 +321,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -518,7 +507,7 @@
         1,
         2,
         3,
-        73
+        72
       ],
       "ToUseDependencies": [
         1,
@@ -623,15 +612,21 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        111,
+        77,
+        84,
+        103,
+        110,
+        117,
         118,
+        119,
+        122,
+        123,
+        124,
         125,
         126,
         127,
+        128,
+        129,
         130,
         131,
         132,
@@ -639,17 +634,7 @@
         134,
         135,
         136,
-        137,
-        138,
-        139,
-        140,
-        141,
-        142,
-        143,
-        144,
-        145,
-        146,
-        147
+        137
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 6
@@ -730,21 +715,6 @@
       "DebugActionIndex": 11
     },
     {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
-      "DisplayName": "MovedFromExtractor UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565",
-      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm\" \"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\\UnityEngine.AutoStreamingModule.dll\"",
-      "Inputs": [
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 12
-    },
-    {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
       "DisplayName": "MovedFromExtractor UnityEngine.ClothModule.dll_178EDD60E7C35F8C",
       "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm\" \"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Managed\\UnityEngine.ClothModule.dll\"",
@@ -757,7 +727,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
@@ -772,7 +742,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -787,7 +757,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_9F0D8CFF6A8902B9.mvfrm",
@@ -802,7 +772,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_F8289315B01FFADE.mvfrm",
@@ -817,7 +787,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.dll_139CE4F818700D44.mvfrm",
@@ -832,7 +802,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_FD79F47F2280CBFF.mvfrm",
@@ -847,7 +817,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_6EBB084EDA10D499.mvfrm",
@@ -862,7 +832,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_AFE5ABD6DC259104.mvfrm",
@@ -877,7 +847,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_2D47F243F82BAA78.mvfrm",
@@ -892,7 +862,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_AF838A7D1FB378B8.mvfrm",
@@ -907,7 +877,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_C5AE66BEE7EAC3C3.mvfrm",
@@ -922,7 +892,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_E9061FCCD3D81489.mvfrm",
@@ -937,7 +907,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_A2DC2F2423FD8D15.mvfrm",
@@ -952,7 +922,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_171C481683DEA54C.mvfrm",
@@ -967,7 +937,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_FFB6F31526DA031A.mvfrm",
@@ -982,7 +952,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_92E19E7D1788C8CB.mvfrm",
@@ -997,7 +967,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.OpenHarmonyJSModule.dll_C5DD11389504AC17.mvfrm",
@@ -1012,7 +982,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_F21FD64BD89A8E47.mvfrm",
@@ -1027,7 +997,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_B2B7498615B16A40.mvfrm",
@@ -1042,7 +1012,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_7AE0BC67E57D54CB.mvfrm",
@@ -1057,7 +1027,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_1C11C8A6BCB65079.mvfrm",
@@ -1072,7 +1042,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_2A6ECC4C497981EB.mvfrm",
@@ -1087,7 +1057,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_9BF6478D4CFC38D5.mvfrm",
@@ -1102,7 +1072,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_A7EBB511D6E0DB94.mvfrm",
@@ -1117,7 +1087,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_199EA09A3B462F7C.mvfrm",
@@ -1132,7 +1102,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_49BFA5945F18BF13.mvfrm",
@@ -1147,7 +1117,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_57E77ADEFB806A13.mvfrm",
@@ -1162,7 +1132,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_2AF8416041AE0F2E.mvfrm",
@@ -1177,7 +1147,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_E2CFB9C794081474.mvfrm",
@@ -1192,7 +1162,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_BF7ACE10DF5B1282.mvfrm",
@@ -1207,7 +1177,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_C294E140C9C85226.mvfrm",
@@ -1222,7 +1192,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_3658441592749967.mvfrm",
@@ -1237,7 +1207,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_F29A7F1EF1DD88D4.mvfrm",
@@ -1252,7 +1222,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_D98ED43C70A900DF.mvfrm",
@@ -1267,7 +1237,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_21770AAE002CB9FD.mvfrm",
@@ -1282,7 +1252,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_42DE12A4F27DAF71.mvfrm",
@@ -1297,7 +1267,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_D554AB96AA317A70.mvfrm",
@@ -1312,7 +1282,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_31F321018D565B0D.mvfrm",
@@ -1327,7 +1297,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_C6D342A8CCF48E1D.mvfrm",
@@ -1342,7 +1312,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_131D00F69CBDAE96.mvfrm",
@@ -1357,7 +1327,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_2B7B2C7E9ACD2C1B.mvfrm",
@@ -1372,7 +1342,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_4DF606CA2F9A089E.mvfrm",
@@ -1387,7 +1357,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_11BF471584C1E043.mvfrm",
@@ -1402,7 +1372,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_C257E323C90D03B7.mvfrm",
@@ -1417,7 +1387,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_61576DA8B4944F23.mvfrm",
@@ -1432,7 +1402,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_AB14B4277774F511.mvfrm",
@@ -1447,7 +1417,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_4CDDFC68F2C3FD54.mvfrm",
@@ -1462,7 +1432,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_2AB39D649C1C34D8.mvfrm",
@@ -1477,7 +1447,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_D74D6E68F2DF5E42.mvfrm",
@@ -1492,7 +1462,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_EAA321237E8C55AD.mvfrm",
@@ -1507,7 +1477,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_EC395009EFEC7669.mvfrm",
@@ -1522,7 +1492,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_6FEB8C952A49CA79.mvfrm",
@@ -1537,7 +1507,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_B2D1B97063C3C47A.mvfrm",
@@ -1552,7 +1522,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_D5B004D0D0389C4D.mvfrm",
@@ -1567,7 +1537,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_65EF277C3E78340E.mvfrm",
@@ -1582,7 +1552,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
@@ -1597,7 +1567,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
@@ -1612,7 +1582,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
@@ -1627,20 +1597,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.TestRunner.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 43674,
-      "PayloadLength": 5704,
+      "PayloadOffset": 43536,
+      "PayloadLength": 5615,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/UnityEngine.TestRunner.dll.mvfrm",
@@ -1653,7 +1623,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -1785,51 +1754,50 @@
         68,
         69,
         70,
-        71,
-        72
+        71
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt",
       "DisplayName": "Writing UnityEngine.UI.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 49483,
+      "PayloadOffset": 49256,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp",
       "DisplayName": "Writing UnityEngine.UI.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 49590,
-      "PayloadLength": 37141,
+      "PayloadOffset": 49363,
+      "PayloadLength": 36627,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp2",
       "DisplayName": "Writing UnityEngine.UI.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 86817,
+      "PayloadOffset": 86076,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp2"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.dll (+2 others)",
@@ -1964,7 +1932,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -2024,10 +1991,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs",
         "Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs",
@@ -2124,14 +2087,14 @@
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
       ],
       "ToBuildDependencies": [
+        73,
         74,
         75,
-        76,
-        81
+        79
       ],
       "ToUseDependencies": [
-        74,
-        76
+        73,
+        75
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.rsp"
@@ -2144,22 +2107,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 77
-    },
-    {
-      "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
-      "DisplayName": "MovedFromExtractor Unity.FontABTool.dll_C3DE235E1539487D",
-      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library\\Bee\\artifacts\\mvdfrm\\Unity.FontABTool.dll_C3DE235E1539487D.mvfrm\" \"Library\\PackageCache\\com.qq.weixin.minigame@55fd892f10\\Runtime\\Plugins\\Unity.FontABTool.dll\"",
-      "Inputs": [
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
@@ -2174,20 +2122,20 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp",
       "DisplayName": "Writing UnityEngine.UI.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 86947,
-      "PayloadLength": 5872,
+      "PayloadOffset": 86206,
+      "PayloadLength": 5709,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.dll.mvfrm",
@@ -2200,7 +2148,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -2260,7 +2207,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.dll.mvfrm.rsp"
@@ -2334,53 +2280,51 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        80
+        77,
+        78
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.TextMeshPro.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 92927,
+      "PayloadOffset": 92023,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93037,
-      "PayloadLength": 35165,
+      "PayloadOffset": 92133,
+      "PayloadLength": 34651,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp2",
       "DisplayName": "Writing Unity.TextMeshPro.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128291,
+      "PayloadOffset": 126873,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp2"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.dll (+2 others)",
@@ -2515,7 +2459,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -2575,10 +2518,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
         "Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/AssemblyInfo.cs",
@@ -2650,15 +2589,15 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
+        76,
+        80,
+        81,
         82,
-        83,
-        84,
-        88
+        86
       ],
       "ToUseDependencies": [
-        82,
-        84
+        80,
+        82
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.rsp"
@@ -2671,7 +2610,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 85
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_6C1073D56147DE5F.mvfrm",
@@ -2685,24 +2624,24 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_6C1073D56147DE5F.mvfrm"
       ],
       "ToBuildDependencies": [
-        77
+        76
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.TextMeshPro.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 128424,
-      "PayloadLength": 5948,
+      "PayloadOffset": 127006,
+      "PayloadLength": 5785,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.dll.mvfrm",
@@ -2716,7 +2655,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -2776,7 +2714,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.dll.mvfrm.rsp"
@@ -2850,54 +2787,52 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        87
+        77,
+        84,
+        85
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.Timeline.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 134477,
+      "PayloadOffset": 132896,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp",
       "DisplayName": "Writing Unity.Timeline.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 134584,
-      "PayloadLength": 36249,
+      "PayloadOffset": 133003,
+      "PayloadLength": 35735,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp2",
       "DisplayName": "Writing Unity.Timeline.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 170919,
+      "PayloadOffset": 168824,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp2"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.dll (+2 others)",
@@ -3032,7 +2967,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -3092,10 +3026,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
         "Library/PackageCache/com.unity.timeline@1.7.6/Runtime/Activation/ActivationMixerPlayable.cs",
@@ -3181,15 +3111,15 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
+        76,
+        87,
+        88,
         89,
-        90,
-        91,
-        94
+        92
       ],
       "ToUseDependencies": [
-        89,
-        91
+        87,
+        89
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.rsp"
@@ -3202,20 +3132,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 92
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.Timeline.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 171049,
-      "PayloadLength": 5948,
+      "PayloadOffset": 168954,
+      "PayloadLength": 5785,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.dll.mvfrm",
@@ -3229,7 +3159,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -3289,7 +3218,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.dll.mvfrm.rsp"
@@ -3363,54 +3291,52 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        93
+        77,
+        84,
+        91
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Core.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 177114,
+      "PayloadOffset": 174856,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 177233,
-      "PayloadLength": 83971,
+      "PayloadOffset": 174975,
+      "PayloadLength": 83457,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Core.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 261302,
+      "PayloadOffset": 258530,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp2"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.dll (+2 others)",
@@ -3545,7 +3471,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -3605,10 +3530,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Core/Cloning/Cloner.cs",
@@ -4049,15 +3970,15 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
+        76,
+        93,
+        94,
         95,
-        96,
-        97,
-        100
+        98
       ],
       "ToUseDependencies": [
-        95,
-        97
+        93,
+        95
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.rsp"
@@ -4070,20 +3991,20 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 98
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Core.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 261444,
-      "PayloadLength": 5948,
+      "PayloadOffset": 258672,
+      "PayloadLength": 5785,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm",
@@ -4097,7 +4018,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -4157,7 +4077,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.dll.mvfrm.rsp"
@@ -4231,501 +4150,52 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        99
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 100
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Wx.UnityAdditionalFile.txt",
-      "DisplayName": "Writing Wx.UnityAdditionalFile.txt",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 267485,
-      "PayloadLength": 22,
-      "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.UnityAdditionalFile.txt"
-      ],
-      "DebugActionIndex": 101
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Wx.rsp",
-      "DisplayName": "Writing Wx.rsp",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 267580,
-      "PayloadLength": 30449,
-      "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.rsp"
-      ],
-      "DebugActionIndex": 102
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Wx.rsp2",
-      "DisplayName": "Writing Wx.rsp2",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 298103,
-      "PayloadLength": 35,
-      "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.rsp2"
-      ],
-      "DebugActionIndex": 103
-    },
-    {
-      "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Wx.dll (+2 others)",
-      "DisplayName": "Csc Wx",
-      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\NetCoreRuntime\\dotnet.exe\" exec \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/DotNetSdkRoslyn/csc.dll\" /nostdlib /noconfig /shared \"@Library/Bee/artifacts/2000b0aP.dag/Wx.rsp\" \"@Library/Bee/artifacts/2000b0aP.dag/Wx.rsp2\"",
-      "Inputs": [
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AccessibilityModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AIModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AndroidJNIModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CrashReportingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.DirectorModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.DSPGraphModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GameCenterModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GIModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.GridModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.HotReloadModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ImageConversionModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.IMGUIModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.InputLegacyModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.InputModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.JSONSerializeModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.LocalizationModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.OpenHarmonyJSModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ParticleSystemModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PerformanceReportingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.Physics2DModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PhysicsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ProfilerModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.PropertiesModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ScreenCaptureModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SharedInternalsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SpriteMaskModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SpriteShapeModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.StreamingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SubstanceModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.SubsystemsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TerrainModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TerrainPhysicsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextCoreFontEngineModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextCoreTextEngineModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TextRenderingModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TilemapModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.TLSModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UIElementsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UIModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UmbraModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityConnectModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityCurlModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityTestProtocolModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VehiclesModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VFXModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VideoModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.VRModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
-        "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/HideLoadingPage.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WebAES.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WebMD5.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WX.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXBase.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXProfileStatsScript.cs",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/WXTouchInputOverride.cs",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.rsp"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.dll",
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.pdb",
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.ref.dll"
-      ],
-      "ToBuildDependencies": [
         77,
-        101,
-        102,
-        103,
-        106
-      ],
-      "ToUseDependencies": [
-        101,
-        103
-      ],
-      "FrontendResponseFiles": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.rsp"
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [
-        {
-          "Key": "DOTNET_MULTILEVEL_LOOKUP",
-          "Value": "0"
-        }
-      ],
-      "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 104
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm.rsp",
-      "DisplayName": "Writing Wx.dll.mvfrm.rsp",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 298221,
-      "PayloadLength": 5948,
-      "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm.rsp"
-      ],
-      "DebugActionIndex": 105
-    },
-    {
-      "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm",
-      "DisplayName": "MovedFromExtractorCombine Wx.dll",
-      "Action": "\"D:\\Program Files\\Tuanjie\\Hub\\Editor\\2022.3.2t4\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe\" \"Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm\" \"@Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm.rsp\"",
-      "Inputs": [
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UI.ref.dll_6C1073D56147DE5F.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AccessibilityModule.dll_9F9F69D9279EA290.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_17A962C94076A8EA.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AndroidJNIModule.dll_446DBE3413CFE3A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.CrashReportingModule.dll_9F0D8CFF6A8902B9.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.DirectorModule.dll_F8289315B01FFADE.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.dll_139CE4F818700D44.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.DSPGraphModule.dll_FD79F47F2280CBFF.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.GameCenterModule.dll_6EBB084EDA10D499.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.GIModule.dll_AFE5ABD6DC259104.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.GridModule.dll_2D47F243F82BAA78.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.HotReloadModule.dll_AF838A7D1FB378B8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ImageConversionModule.dll_C5AE66BEE7EAC3C3.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.IMGUIModule.dll_E9061FCCD3D81489.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputLegacyModule.dll_A2DC2F2423FD8D15.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.InputModule.dll_171C481683DEA54C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.JSONSerializeModule.dll_FFB6F31526DA031A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.LocalizationModule.dll_92E19E7D1788C8CB.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.OpenHarmonyJSModule.dll_C5DD11389504AC17.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ParticleSystemModule.dll_F21FD64BD89A8E47.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.PerformanceReportingModule.dll_B2B7498615B16A40.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.Physics2DModule.dll_7AE0BC67E57D54CB.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.PhysicsModule.dll_1C11C8A6BCB65079.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ProfilerModule.dll_2A6ECC4C497981EB.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.PropertiesModule.dll_9BF6478D4CFC38D5.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll_A7EBB511D6E0DB94.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.ScreenCaptureModule.dll_199EA09A3B462F7C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.SharedInternalsModule.dll_49BFA5945F18BF13.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteMaskModule.dll_57E77ADEFB806A13.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.SpriteShapeModule.dll_2AF8416041AE0F2E.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.StreamingModule.dll_E2CFB9C794081474.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubstanceModule.dll_BF7ACE10DF5B1282.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.SubsystemsModule.dll_C294E140C9C85226.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_3658441592749967.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainPhysicsModule.dll_F29A7F1EF1DD88D4.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreFontEngineModule.dll_D98ED43C70A900DF.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextCoreTextEngineModule.dll_21770AAE002CB9FD.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TextRenderingModule.dll_42DE12A4F27DAF71.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TilemapModule.dll_D554AB96AA317A70.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.TLSModule.dll_31F321018D565B0D.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIElementsModule.dll_C6D342A8CCF48E1D.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UIModule.dll_131D00F69CBDAE96.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UmbraModule.dll_2B7B2C7E9ACD2C1B.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsCommonModule.dll_4DF606CA2F9A089E.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityAnalyticsModule.dll_11BF471584C1E043.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityConnectModule.dll_C257E323C90D03B7.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityCurlModule.dll_61576DA8B4944F23.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityTestProtocolModule.dll_AB14B4277774F511.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAssetBundleModule.dll_4CDDFC68F2C3FD54.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestAudioModule.dll_2AB39D649C1C34D8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestModule.dll_D74D6E68F2DF5E42.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestTextureModule.dll_EAA321237E8C55AD.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.UnityWebRequestWWWModule.dll_EC395009EFEC7669.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VehiclesModule.dll_6FEB8C952A49CA79.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VFXModule.dll_B2D1B97063C3C47A.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VideoModule.dll_D5B004D0D0389C4D.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.VRModule.dll_65EF277C3E78340E.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm.rsp"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.dll.mvfrm"
-      ],
-      "ToBuildDependencies": [
-        5,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22,
-        23,
-        24,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        34,
-        35,
-        36,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        78,
-        79,
-        86,
-        105
+        84,
+        97
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.Flow.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 304286,
+      "PayloadOffset": 264574,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 304405,
-      "PayloadLength": 79381,
+      "PayloadOffset": 264693,
+      "PayloadLength": 78867,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.Flow.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 383884,
+      "PayloadOffset": 343658,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp2"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.dll (+2 others)",
@@ -4860,7 +4330,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -4920,10 +4389,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
@@ -5339,16 +4804,16 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
-        98,
-        107,
-        108,
-        109,
-        113
+        76,
+        96,
+        99,
+        100,
+        101,
+        105
       ],
       "ToUseDependencies": [
-        107,
-        109
+        99,
+        101
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.rsp"
@@ -5361,7 +4826,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 110
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_3AC08951D7FF5D33.mvfrm",
@@ -5375,24 +4840,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Core.ref.dll_3AC08951D7FF5D33.mvfrm"
       ],
       "ToBuildDependencies": [
-        98
+        96
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.Flow.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 384026,
-      "PayloadLength": 6036,
+      "PayloadOffset": 343800,
+      "PayloadLength": 5873,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm",
@@ -5407,7 +4872,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -5467,7 +4931,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.dll.mvfrm.rsp"
@@ -5541,55 +5004,53 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        111,
-        112
+        77,
+        84,
+        103,
+        104
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "DisplayName": "Writing Unity.VisualScripting.State.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 390180,
+      "PayloadOffset": 349791,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 390300,
-      "PayloadLength": 33385,
+      "PayloadOffset": 349911,
+      "PayloadLength": 32871,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp2",
       "DisplayName": "Writing Unity.VisualScripting.State.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 423784,
+      "PayloadOffset": 382881,
       "PayloadLength": 35,
       "PayloadDebugContentSnippet": "/pathmap:\"D:\\Users\\zheng\\Educa",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp2"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.dll (+2 others)",
@@ -5724,7 +5185,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -5784,10 +5244,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Core.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll",
@@ -5833,17 +5289,17 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
-        98,
-        110,
-        114,
-        115,
-        116,
-        120
+        76,
+        96,
+        102,
+        106,
+        107,
+        108,
+        112
       ],
       "ToUseDependencies": [
-        114,
-        116
+        106,
+        108
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.rsp"
@@ -5856,7 +5312,7 @@
         }
       ],
       "CachingMode": "ByDirectInputs",
-      "DebugActionIndex": 117
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_81D169A85A08D1E2.mvfrm",
@@ -5870,24 +5326,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Flow.ref.dll_81D169A85A08D1E2.mvfrm"
       ],
       "ToBuildDependencies": [
-        110
+        102
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp",
       "DisplayName": "Writing Unity.VisualScripting.State.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 423927,
-      "PayloadLength": 6124,
+      "PayloadOffset": 383024,
+      "PayloadLength": 5961,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.dll.mvfrm",
@@ -5903,7 +5359,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -5963,7 +5418,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.dll.mvfrm.rsp"
@@ -6037,56 +5491,54 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        111,
-        118,
-        119
+        77,
+        84,
+        103,
+        110,
+        111
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt",
       "DisplayName": "Writing Assembly-CSharp.UnityAdditionalFile.txt",
       "ActionType": "WriteFile",
-      "PayloadOffset": 430157,
+      "PayloadOffset": 389091,
       "PayloadLength": 22,
       "PayloadDebugContentSnippet": "D:\\Users\\zheng\\Educate",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.UnityAdditionalFile.txt"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 430265,
-      "PayloadLength": 30680,
+      "PayloadOffset": 389199,
+      "PayloadLength": 30183,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 461032,
+      "PayloadOffset": 419469,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp2"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "Csc Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll (+2 others)",
@@ -6221,7 +5673,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AnimationModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AssetBundleModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AudioModule.dll",
-        "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.AutoStreamingModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ClothModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.ContentLoadModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.CoreModule.dll",
@@ -6281,10 +5732,6 @@
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WindModule.dll",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed/UnityEngine.XRModule.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.TextMeshPro.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.Timeline.ref.dll",
@@ -6292,9 +5739,10 @@
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll",
         "Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll",
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.ref.dll",
         "Assets/Scripts/ChangeJson.cs",
+        "Assets/Scripts/ChooseController.cs",
         "Assets/Scripts/DropFound.cs",
+        "Assets/Scripts/EnterGame.cs",
         "Assets/Scripts/Exit.cs",
         "Assets/Scripts/FindWaitTime.cs",
         "Assets/Scripts/GameController.cs",
@@ -6314,21 +5762,20 @@
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.ref.dll"
       ],
       "ToBuildDependencies": [
-        77,
-        85,
-        92,
-        98,
-        104,
-        110,
-        117,
-        121,
-        122,
-        123,
-        129
+        76,
+        83,
+        90,
+        96,
+        102,
+        109,
+        113,
+        114,
+        115,
+        121
       ],
       "ToUseDependencies": [
-        121,
-        123
+        113,
+        115
       ],
       "FrontendResponseFiles": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.rsp"
@@ -6340,7 +5787,7 @@
           "Value": "0"
         }
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_62E30C949C33F28C.mvfrm",
@@ -6354,11 +5801,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.TextMeshPro.ref.dll_62E30C949C33F28C.mvfrm"
       ],
       "ToBuildDependencies": [
-        85
+        83
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_C52EA77D1C2DC08E.mvfrm",
@@ -6372,11 +5819,11 @@
         "Library/Bee/artifacts/mvdfrm/Unity.Timeline.ref.dll_C52EA77D1C2DC08E.mvfrm"
       ],
       "ToBuildDependencies": [
-        92
+        90
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "MovedFromExtractor Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_3C5C88F0FB368CB3.mvfrm",
@@ -6390,24 +5837,24 @@
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.State.ref.dll_3C5C88F0FB368CB3.mvfrm"
       ],
       "ToBuildDependencies": [
-        117
+        109
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 461128,
-      "PayloadLength": 6368,
+      "PayloadOffset": 419565,
+      "PayloadLength": 6205,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "MovedFromExtractorCombine Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm",
@@ -6426,7 +5873,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_2E3ACC7744805D36.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AssetBundleModule.dll_119714058C0BD724.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.AudioModule.dll_B0A680660DA680A8.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/UnityEngine.AutoStreamingModule.dll_BC0D2390FA2D3565.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ClothModule.dll_178EDD60E7C35F8C.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.ContentLoadModule.dll_AAAD6D465A8E7F11.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.CoreModule.dll_4FD6D655DFD71481.mvfrm",
@@ -6486,7 +5932,6 @@
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WebGLModule.dll_5012F574FF7C926B.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.WindModule.dll_C625B17E710D92EA.mvfrm",
         "Library/Bee/artifacts/mvdfrm/UnityEngine.XRModule.dll_98ADEA80C7B2816C.mvfrm",
-        "Library/Bee/artifacts/mvdfrm/Unity.FontABTool.dll_C3DE235E1539487D.mvfrm",
         "Library/Bee/artifacts/mvdfrm/Unity.VisualScripting.Antlr3.Runtime.dll_DACAA631817C5F43.mvfrm",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/ScriptUpdater/ApiUpdater.MovedFromExtractor.exe",
         "Library/Bee/artifacts/2000b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp"
@@ -6560,20 +6005,18 @@
         68,
         69,
         70,
-        71,
-        78,
-        79,
-        86,
-        111,
+        77,
+        84,
+        103,
+        110,
+        117,
         118,
-        125,
-        126,
-        127,
-        128
+        119,
+        120
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
@@ -6588,7 +6031,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb",
@@ -6603,7 +6046,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
@@ -6616,9 +6059,9 @@
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "ToBuildDependencies": [
-        77
+        76
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb",
@@ -6631,9 +6074,9 @@
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "ToBuildDependencies": [
-        77
+        76
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
@@ -6646,9 +6089,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "ToBuildDependencies": [
-        85
+        83
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb",
@@ -6661,9 +6104,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "ToBuildDependencies": [
-        85
+        83
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
@@ -6676,9 +6119,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
-        92
+        90
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb",
@@ -6691,9 +6134,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
-        92
+        90
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -6706,9 +6149,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "ToBuildDependencies": [
-        98
+        96
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb",
@@ -6721,39 +6164,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "ToBuildDependencies": [
-        98
+        96
       ],
-      "DebugActionIndex": 139
-    },
-    {
-      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Wx.dll",
-      "DisplayName": "Copying Wx.dll",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.dll"
-      ],
-      "Outputs": [
-        "Library/Bee/PlayerScriptAssemblies/Wx.dll"
-      ],
-      "ToBuildDependencies": [
-        104
-      ],
-      "DebugActionIndex": 140
-    },
-    {
-      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Wx.pdb",
-      "DisplayName": "Copying Wx.pdb",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/2000b0aP.dag/Wx.pdb"
-      ],
-      "Outputs": [
-        "Library/Bee/PlayerScriptAssemblies/Wx.pdb"
-      ],
-      "ToBuildDependencies": [
-        104
-      ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
@@ -6766,9 +6179,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "ToBuildDependencies": [
-        110
+        102
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb",
@@ -6781,9 +6194,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "ToBuildDependencies": [
-        110
+        102
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
@@ -6796,9 +6209,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "ToBuildDependencies": [
-        117
+        109
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb",
@@ -6811,9 +6224,9 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "ToBuildDependencies": [
-        117
+        109
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
@@ -6826,9 +6239,9 @@
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "ToBuildDependencies": [
-        124
+        116
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb",
@@ -6841,14 +6254,14 @@
         "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "ToBuildDependencies": [
-        124
+        116
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Wx.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"D:/Users/zheng/Educate/Library/Bee/PlayerScriptAssemblies\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -6860,12 +6273,7 @@
         "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "Library/Bee/PlayerScriptAssemblies/Wx.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
@@ -6873,19 +6281,18 @@
         "Library/BuildPlayerData/Player/TypeDb-All.json"
       ],
       "ToBuildDependencies": [
+        122,
+        124,
+        126,
+        128,
         130,
         132,
         134,
-        136,
-        138,
-        140,
-        142,
-        144,
-        146
+        136
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -6894,10 +6301,10 @@
       "Outputs": [],
       "ToBuildDependencies": [
         6,
-        148
+        138
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 149
+      "DebugActionIndex": 139
     }
   ],
   "FileSignatures": [
@@ -7018,22 +6425,7 @@
       "File": "Library/Bee/2000b0aP-inputdata.json"
     },
     {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/csc.rsp"
-    },
-    {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime.dll"
-    },
-    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/AOT/Newtonsoft.Json.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/csc.rsp"
@@ -7084,7 +6476,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 6,
-          "ScriptAssembliesAndTypeDB": 149
+          "ScriptAssembliesAndTypeDB": 139
         }
 ,  "DefaultNodes": [
     0

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2543129676
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 78c62d235c604f906a6d2b8f2c84370d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae0d50e34c2aa32647a02630f4f671b1
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AutoStreamingData/TmpTextureAssets/8f586378b4e144a9851e7b34d9b748ee.asset
+Dependencies: []

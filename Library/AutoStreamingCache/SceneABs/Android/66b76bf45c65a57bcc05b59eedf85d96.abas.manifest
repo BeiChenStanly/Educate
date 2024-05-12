@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 632808139
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc4e9219c345bbdb3dbba44f793fd609
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b74eab779367484235b0bc40638027fd
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Texts/physics.json
+- Assets/Fonts/hanyiwenhei-85W.ttf
+- Assets/Pictrues/background.jpg
+- Assets/Texts/chinese.json
+- Assets/Texts/chemistry.json
+Dependencies: []

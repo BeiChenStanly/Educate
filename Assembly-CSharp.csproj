@@ -60,10 +60,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameEnd.cs" />
+    <Compile Include="Assets\Scripts\ChooseController.cs" />
     <Compile Include="Assets\Scripts\ChangeJson.cs" />
     <Compile Include="Assets\Scripts\TimeFound.cs" />
     <Compile Include="Assets\Scripts\Exit.cs" />
     <Compile Include="Assets\Scripts\ShowAppearance.cs" />
+    <Compile Include="Assets\Scripts\EnterGame.cs" />
     <Compile Include="Assets\Scripts\FindWaitTime.cs" />
     <Compile Include="Assets\Scripts\ReternMain.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefsX.cs" />
@@ -76,7 +78,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\WX-WASM-SDK-V2\Runtime\Plugins\link.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -115,9 +116,6 @@
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>D:\Program Files\Tuanjie\Hub\Editor\2022.3.2t4\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AutoStreamingModule">
-      <HintPath>D:\Program Files\Tuanjie\Hub\Editor\2022.3.2t4\Editor\Data\Managed\UnityEngine\UnityEngine.AutoStreamingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ClothModule">
       <HintPath>D:\Program Files\Tuanjie\Hub\Editor\2022.3.2t4\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
@@ -344,26 +342,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>D:\Program Files\Tuanjie\Hub\Editor\2022.3.2t4\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="wx-runtime-editor">
-      <HintPath>Library\PackageCache\com.qq.weixin.minigame@55fd892f10\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.FontABTool">
-      <HintPath>Library\PackageCache\com.qq.weixin.minigame@55fd892f10\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.4\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
-    <Reference Include="LitJson">
-      <HintPath>Library\PackageCache\com.qq.weixin.minigame@55fd892f10\Runtime\Plugins\LitJson.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.11.4\Mono.Cecil.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.OpenHarmony.Types">
       <HintPath>D:\Program Files\Tuanjie\Hub\Editor\2022.3.2t4\Editor\Data\PlaybackEngines\OpenHarmonyPlayer\Unity.OpenHarmony.Types.dll</HintPath>
@@ -788,9 +771,6 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Wx">
-      <HintPath>Library\ScriptAssemblies\Wx.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
@@ -815,17 +795,11 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InstantGame.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.InstantGame.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="WxEditor">
-      <HintPath>Library\ScriptAssemblies\WxEditor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

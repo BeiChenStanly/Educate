@@ -24,7 +24,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Wx.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime-editor.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"D:/Users/zheng/Educate/Library/ScriptAssemblies\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"D:/Users/zheng/Educate/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Managed/UnityEngine\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/NetStandard/ref/2.1.0\" -s=\"D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/PlaybackEngines/WebGLSupport/Managed\" -s=\"D:/Users/zheng/Educate/Library/ScriptAssemblies\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator\" -s=\"D:/Users/zheng/Educate/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "D:/Program Files/Tuanjie/Hub/Editor/2022.3.2t4/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -36,16 +36,7 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
-        "Library/ScriptAssemblies/Wx.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll",
-        "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime-editor.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll",
-        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll",
-        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll",
-        "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll",
-        "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll",
         "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll",
         "Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
@@ -187,31 +178,7 @@
       "File": "Library/Bee/2000b0aESkipCompile-inputdata.json"
     },
     {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/LitJson.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/Unity.FontABTool.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.qq.weixin.minigame@55fd892f10/Runtime/Plugins/wx-runtime-editor.dll"
-    },
-    {
       "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Mdb.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Pdb.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@1.11.4/Mono.Cecil.Rocks.dll"
-    },
-    {
-      "File": "Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll"
     },
     {
       "File": "Library/PackageCache/com.unity.testtools.codecoverage@1.2.4/lib/ReportGenerator/ReportGeneratorMerged.dll"
@@ -242,9 +209,6 @@
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
-    },
-    {
-      "File": "Library/ScriptAssemblies/Wx.dll"
     }
   ],
   "GlobSignatures": [

@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FinalScene.unity
     guid: b071b80c42ead8949a9d3fd992571810
+  - enabled: 1
+    path: Assets/Scenes/ChooseScene.scene
+    guid: 0ef71cafce67a6d49839b292cef9fe3a
   m_configObjects: {}
   m_SlimFeaturesWeixinMiniGame:
     DecompressASTC: 0

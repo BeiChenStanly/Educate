@@ -13,7 +13,7 @@ AutoStreamingSettings:
     onDemandDownload: 1
     assetPath: Assets/Pictrues/background.jpg
     localFileId: 2800000
-    rtMem: 1179648
+    rtMem: 1050624
     warningFlag: 0
     refs:
     - 0
@@ -22,7 +22,7 @@ AutoStreamingSettings:
     maxPlaceholderSize: 196640
     width: 2048
     height: 1152
-    abSize: 0
+    abSize: 206783
   - serializedVersion: 2
     onDemandDownload: 1
     assetPath: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
@@ -35,24 +35,24 @@ AutoStreamingSettings:
     maxPlaceholderSize: 589856
     width: 1024
     height: 1024
-    abSize: 0
+    abSize: 185667
   - serializedVersion: 2
     onDemandDownload: 1
     assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.png
     localFileId: 2800000
-    rtMem: 349552
+    rtMem: 158432
     warningFlag: 0
     refs:
     - res
     maxPlaceholderSize: 196640
     width: 512
     height: 512
-    abSize: 0
+    abSize: 69975
   mAudios:
   - onDemandDownload: 1
-    assetPath: Assets/Musics/Correct.wav
+    assetPath: Assets/Musics/Wrong.wav
     localFileId: 8300000
-    rtMem: 19688
+    rtMem: 8197
     warningFlag: 0
     refs:
     - 1
@@ -64,9 +64,9 @@ AutoStreamingSettings:
     refs:
     - 1
   - onDemandDownload: 1
-    assetPath: Assets/Musics/Wrong.wav
+    assetPath: Assets/Musics/Correct.wav
     localFileId: 8300000
-    rtMem: 8197
+    rtMem: 19688
     warningFlag: 0
     refs:
     - 1
@@ -113,13 +113,13 @@ AutoStreamingSettings:
   - onDemandDownload: 1
     assetPath: Assets/Scenes/GameScene.unity
     localFileId: -1
-    rtMem: 0
+    rtMem: 131606
     warningFlag: 0
     refs: []
   - onDemandDownload: 1
     assetPath: Assets/Scenes/FinalScene.unity
     localFileId: -1
-    rtMem: 0
+    rtMem: 50418
     warningFlag: 0
     refs: []
   mConfigCCD:
@@ -130,4 +130,4 @@ AutoStreamingSettings:
     bucketName: Educate
     badgeName: v1
     ttAppid: 
-    targetPlatfrom: 
+    targetPlatfrom: Bytedance
