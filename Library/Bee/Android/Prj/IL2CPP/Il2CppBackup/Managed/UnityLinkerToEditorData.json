@@ -9,12 +9,6 @@
         "name": "Animation",
         "dependencies": [
           {
-            "name": "AnimationClip",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "Animator",
             "scenes": [],
             "dependencyType": 0,
@@ -33,63 +27,10 @@
             "icon": null
           },
           {
-            "name": "Avatar",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "AvatarMask",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Motion",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
             "name": "RuntimeAnimatorController",
             "scenes": [],
             "dependencyType": 1,
             "icon": null
-          },
-          {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
-          }
-        ]
-      },
-      {
-        "name": "AssetBundle",
-        "dependencies": [
-          {
-            "name": "AssetBundle",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
-            "name": "Required by UnityWebRequestAssetBundle Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
           }
         ]
       },
@@ -99,11 +40,10 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -111,7 +51,6 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -120,11 +59,10 @@
           {
             "name": "AudioListener",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -138,7 +76,6 @@
           {
             "name": "AudioSource",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -147,29 +84,18 @@
           {
             "name": "SampleClip",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
           },
           {
-            "name": "Required by AutoStreaming Module",
+            "name": "Required by Video Module",
             "scenes": [],
             "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
+            "icon": "package/com.unity.modules.video"
           }
         ]
-      },
-      {
-        "name": "AutoStreaming",
-        "dependencies": []
       },
       {
         "name": "Core",
@@ -189,11 +115,10 @@
           {
             "name": "Camera",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -213,11 +138,10 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -237,12 +161,10 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -256,11 +178,10 @@
           {
             "name": "GameObject",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -286,11 +207,10 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -298,11 +218,10 @@
           {
             "name": "Light",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -322,11 +241,10 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -340,12 +258,10 @@
           {
             "name": "Material",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -353,7 +269,6 @@
           {
             "name": "Mesh",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -362,7 +277,6 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -371,7 +285,6 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -380,11 +293,10 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -398,11 +310,10 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -410,12 +321,10 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -453,11 +362,10 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -471,18 +379,19 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "RenderTexture",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/ChooseScene.scene"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -507,12 +416,10 @@
           {
             "name": "Shader",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -532,12 +439,10 @@
           {
             "name": "Sprite",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -550,13 +455,7 @@
           },
           {
             "name": "SpriteRenderer",
-            "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "Assets/Scenes/FinalScene.unity",
-              "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
-            ],
+            "scenes": [],
             "dependencyType": 0,
             "icon": null
           },
@@ -621,34 +520,10 @@
             "icon": "package/com.unity.modules.animation"
           },
           {
-            "name": "Required by AssetBundle Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.assetbundle"
-          },
-          {
             "name": "Required by Audio Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.audio"
-          },
-          {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
-          },
-          {
-            "name": "Required by HotReload Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.hotreload"
           },
           {
             "name": "Required by IMGUI Module",
@@ -667,12 +542,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
-          },
-          {
-            "name": "Required by ParticleSystem Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by PerformanceReporting Module",
@@ -753,32 +622,10 @@
             "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
-            "name": "Required by UnityWebRequestAssetBundle Module",
+            "name": "Required by Video Module",
             "scenes": [],
             "dependencyType": 2,
-            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
-          }
-        ]
-      },
-      {
-        "name": "Director",
-        "dependencies": [
-          {
-            "name": "PlayableDirector",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          }
-        ]
-      },
-      {
-        "name": "HotReload",
-        "dependencies": [
-          {
-            "name": "Required by AssetBundle Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.assetbundle"
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -814,12 +661,6 @@
         "name": "JSONSerialize",
         "dependencies": [
           {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
             "name": "Required by PerformanceReporting Module",
             "scenes": [],
             "dependencyType": 2,
@@ -846,23 +687,6 @@
         ]
       },
       {
-        "name": "ParticleSystem",
-        "dependencies": [
-          {
-            "name": "ParticleSystem",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          },
-          {
-            "name": "ParticleSystemRenderer",
-            "scenes": [],
-            "dependencyType": 0,
-            "icon": null
-          }
-        ]
-      },
-      {
         "name": "PerformanceReporting",
         "dependencies": [
           {
@@ -885,7 +709,6 @@
           {
             "name": "Collider",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -894,7 +717,6 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
               "Assets/Scenes/GameScene.unity"
             ],
             "dependencyType": 0,
@@ -935,40 +757,16 @@
             "icon": "package/com.unity.modules.animation"
           },
           {
-            "name": "Required by AssetBundle Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.assetbundle"
-          },
-          {
             "name": "Required by Audio Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.audio"
           },
           {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
             "name": "Required by Core Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.core"
-          },
-          {
-            "name": "Required by Director Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.director"
-          },
-          {
-            "name": "Required by HotReload Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.hotreload"
           },
           {
             "name": "Required by IMGUI Module",
@@ -987,12 +785,6 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
-          },
-          {
-            "name": "Required by ParticleSystem Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by PerformanceReporting Module",
@@ -1073,10 +865,10 @@
             "icon": "package/com.unity.modules.unitywebrequest"
           },
           {
-            "name": "Required by UnityWebRequestAssetBundle Module",
+            "name": "Required by Video Module",
             "scenes": [],
             "dependencyType": 2,
-            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1131,21 +923,12 @@
           {
             "name": "Font",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
-              "66b76bf45c65a57bcc05b59eedf85d96.abas",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
-          },
-          {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
           },
           {
             "name": "Required by IMGUI Module",
@@ -1185,11 +968,10 @@
           {
             "name": "Canvas",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1203,11 +985,10 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "414a1e07b7c14c249b6c86b6671831f3.abas",
+              "Assets/Scenes/ChooseScene.scene",
               "Assets/Scenes/FinalScene.unity",
               "Assets/Scenes/GameScene.unity",
-              "Assets/Scenes/StartScene.unity",
-              "b071b80c42ead8949a9d3fd992571810.abas"
+              "Assets/Scenes/StartScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1217,6 +998,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.uielements"
+          },
+          {
+            "name": "Required by Video Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
@@ -1227,12 +1014,6 @@
       {
         "name": "UnityAnalytics",
         "dependencies": [
-          {
-            "name": "Required by Analytics Performance Reporting (See Analytics Services Window)",
-            "scenes": [],
-            "dependencyType": 3,
-            "icon": "class/PlayerSettings"
-          },
           {
             "name": "Required by PerformanceReporting Module",
             "scenes": [],
@@ -1291,33 +1072,29 @@
         "name": "UnityWebRequest",
         "dependencies": [
           {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
-          },
-          {
             "name": "Required by UnityAnalytics Module",
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.unityanalytics"
           },
           {
-            "name": "Required by UnityWebRequestAssetBundle Module",
+            "name": "Required by Video Module",
             "scenes": [],
             "dependencyType": 2,
-            "icon": "package/com.unity.modules.unitywebrequestassetbundle"
+            "icon": "package/com.unity.modules.video"
           }
         ]
       },
       {
-        "name": "UnityWebRequestAssetBundle",
+        "name": "Video",
         "dependencies": [
           {
-            "name": "Required by AutoStreaming Module",
-            "scenes": [],
-            "dependencyType": 2,
-            "icon": "package/com.unity.modules.autostreaming"
+            "name": "VideoPlayer",
+            "scenes": [
+              "Assets/Scenes/ChooseScene.scene"
+            ],
+            "dependencyType": 0,
+            "icon": null
           }
         ]
       }

@@ -1,14 +1,13 @@
-using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Video;
 
 public class ChooseController : MonoBehaviour
 {
-    GameObject Double;
+    public GameObject Double;
     public GameObject Content1;
     public GameObject Content2;
-    GameObject Canvas;
+    public GameObject Canvas;
     VideoPlayer videoPlayer;
     string[] namelist = {
     "Àî¿£ºÕ",
@@ -56,26 +55,28 @@ public class ChooseController : MonoBehaviour
     };
     void Start()
     {
-        Double = GameObject.Find("Double");
-        Canvas = GameObject.Find("Canvas");
         videoPlayer = Double.GetComponent<VideoPlayer>();
         videoPlayer.url = Application.streamingAssetsPath+ "/double.mp4";
-        Canvas.SetActive(false);
-        Content1.SetActive(false);
-        Content2.SetActive(false);
         videoPlayer.Play();
         videoPlayer.loopPointReached += EndReached;
     }
     void EndReached(VideoPlayer vp)
     {
-        Canvas.SetActive(true);
-        Content1.SetActive(true);
-        Content2.SetActive(true);
+        Double.SetActive(false);
+        foreach(Transform child in Canvas.transform)
+        {
+            if(child.gameObject.tag == "Finish")
+            {
+                child.gameObject.SetActive(true);
+            }
+        }
         int index = Random.Range(0, namelist.Length);
         GameObject.Find("Canvas/Content1/Text1").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index];
         GameObject.Find("Canvas/Content1/Text2").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index];
-        index = Random.Range(0, namelist.Length);
-        GameObject.Find("Canvas/Content2/Text1").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index];
-        GameObject.Find("Canvas/Content2/Text2").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index];
+        int index2;
+        do { index2 = Random.Range(0, namelist.Length); }
+        while (index2 == index);
+        GameObject.Find("Canvas/Content2/Text1").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index2];
+        GameObject.Find("Canvas/Content2/Text2").GetComponent<TextMeshProUGUI>().text = "<rotate=90>" + namelist[index2];
     }
 }

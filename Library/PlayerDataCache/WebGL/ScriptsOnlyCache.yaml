@@ -117,6 +117,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -445,7 +447,7 @@ ScriptsOnlyBuild:
     className: LayoutElement
   - hash:
       serializedVersion: 2
-      Hash: 958344d34200103352204dc3d78a1a55
+      Hash: 1b5f975682c3c49ce145277dbc9bb53a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ChooseController
