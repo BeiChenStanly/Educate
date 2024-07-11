@@ -2,16 +2,17 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
+using TMPro;
 
 public class StartGame : MonoBehaviour
 {
     public GameObject Chou;
+    public GameObject ChooseDropdown;
     List<GameObject> toggles = new List<GameObject>();
     List<int> parts = new List<int>();
-    GameObject Canvas;
+    public GameObject Parts;
     void Start()
     {
-        Canvas = GameObject.Find("Canvas");
         GetComponent<Button>().onClick.AddListener(() =>
         {
             try
@@ -21,18 +22,15 @@ public class StartGame : MonoBehaviour
                 PlayerPrefs.SetFloat("waittime", (float)System.Math.Round((decimal)(GameObject.Find("Canvas/Slider").GetComponent<Slider>().value + 0.5), 2, System.MidpointRounding.AwayFromZero));
             }
             catch { }
-            foreach (Transform child in Canvas.transform)
+            foreach (Transform child in Parts.transform)
             {
-                if (child.tag == "Toggle")
+                toggles.Add(child.gameObject);
+                if (child.gameObject.GetComponent<Toggle>().isOn)
                 {
-                    toggles.Add(child.gameObject);
-                    if (child.gameObject.GetComponent<Toggle>().isOn)
-                    {
-                        parts.Add(int.Parse(child.gameObject.name));
-                    }
+                    parts.Add(int.Parse(child.gameObject.name));
                 }
             }
-            if (parts.Count == 0&&SceneManager.GetActiveScene().name=="StartScene")
+            if (parts.Count == 0 && SceneManager.GetActiveScene().name == "StartScene")
             {
                 Debug.Log("Please select at least one part");
                 return;
@@ -40,6 +38,7 @@ public class StartGame : MonoBehaviour
             PlayerPrefsX.SetIntArray("parts", parts.ToArray());
             if (Chou.GetComponent<Toggle>().isOn)
             {
+                PlayerPrefs.SetInt("choose", ChooseDropdown.GetComponent<TMP_Dropdown>().value);
                 SceneManager.LoadScene("ChooseScene");
             }
             else

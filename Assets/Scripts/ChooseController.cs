@@ -53,10 +53,20 @@ public class ChooseController : MonoBehaviour
     "Í¿ÏÄ",
     "Íôå··«"
     };
+    int choose;
+    enum Urls
+    {
+        yuanshen = 0,
+        moon = 1,
+        contact = 2
+    }
     void Start()
     {
+        choose = PlayerPrefs.GetInt("choose");
+        print(choose);
         videoPlayer = Double.GetComponent<VideoPlayer>();
-        videoPlayer.url = Application.streamingAssetsPath+ "/double.mp4";
+        print(Application.streamingAssetsPath+ $"/{((Urls)choose).ToString()}.mp4");
+        videoPlayer.url = Application.streamingAssetsPath+ $"/{((Urls)choose).ToString()}.mp4";
         videoPlayer.Play();
         videoPlayer.loopPointReached += EndReached;
     }

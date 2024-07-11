@@ -1,10 +1,19 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DropFound : MonoBehaviour
 {
+    public string content;
     void Start()
     {
-        GetComponent<Dropdown>().value = PlayerPrefs.GetInt("subject");
+        try
+        {
+            GetComponent<Dropdown>().value = PlayerPrefs.GetInt(content);
+        }
+        catch
+        {
+            GetComponent<TMP_Dropdown>().value = PlayerPrefs.GetInt(content);
+        }
     }
 }

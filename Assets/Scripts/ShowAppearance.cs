@@ -60,19 +60,17 @@ public class ShowAppearance : MonoBehaviour
     GameObject slider;
     GameObject dropdown;
     int[] parts;
-    GameObject Canvas;
+    public GameObject Parts;
     void Start()
     {
         timeSeen = GameObject.Find("Canvas/TimeSeen");
         slider = GameObject.Find("Canvas/Slider");
-        Canvas = GameObject.Find("Canvas");
         dropdown = GameObject.Find("Canvas/Dropdown");
         parts = PlayerPrefsX.GetIntArray("parts");
         for (int i = 0; i < fdic[dropdown.GetComponent<Dropdown>().value].Count; i++)
         {
             GameObject obj = Instantiate(toggle, transform);
-            obj.transform.SetParent(Canvas.transform);
-            obj.transform.localPosition = transform.localPosition+new Vector3(0, -i*50, 0);
+            obj.transform.SetParent(Parts.transform);
             obj.transform.localScale = transform.localScale;
             obj.transform.name = i.ToString();
             for (int j = 0; j < parts.Length; j++)
@@ -107,17 +105,15 @@ public class ShowAppearance : MonoBehaviour
         try
         {
             //清除所有toggle
-            foreach (Transform child in Canvas.transform)
+            foreach (Transform child in Parts.transform)
             {
-                if (child.tag == "Toggle")
                     Destroy(child.gameObject);
             }
             //新建另一个学科的toggle
             for (int i = 0; i < fdic[dropdown.GetComponent<Dropdown>().value].Count; i++)
             {
                 GameObject obj = Instantiate(toggle, transform);
-                obj.transform.SetParent(Canvas.transform);
-                obj.transform.localPosition = transform.localPosition + new Vector3(0, -i * 50, 0);
+                obj.transform.SetParent(Parts.transform);
                 obj.transform.localScale = transform.localScale;
                 obj.transform.name = i.ToString();
                 obj.GetComponentInChildren<Text>().text = fdic[dropdown.GetComponent<Dropdown>().value][i];

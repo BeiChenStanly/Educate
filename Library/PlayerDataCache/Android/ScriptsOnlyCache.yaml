@@ -12,7 +12,6 @@ ScriptsOnlyBuild:
     - ReternMain
     - ShowAppearance
     - StartGame
-    - TimeFound
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -21,6 +20,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
     - TMPro.TMP_Settings
@@ -50,12 +50,16 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
     - TMPro.KerningTable
     - TMPro.TMP_Character
+    - TMPro.TMP_Dropdown/DropdownEvent
+    - TMPro.TMP_Dropdown/OptionData
+    - TMPro.TMP_Dropdown/OptionDataList
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
     - TMPro.TMP_GlyphAdjustmentRecord
@@ -75,6 +79,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -138,17 +143,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18264}
     - Class: 114
-      Script: {instanceID: 18432}
+      Script: {instanceID: 18430}
     - Class: 114
-      Script: {instanceID: 18814}
+      Script: {instanceID: 18812}
     - Class: 114
-      Script: {instanceID: 20194}
+      Script: {instanceID: 20192}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20732}
     - Class: 114
-      Script: {instanceID: 20882}
+      Script: {instanceID: 20880}
     - Class: 114
-      Script: {instanceID: 21194}
+      Script: {instanceID: 21192}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -203,21 +208,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18264}
     - Class: 114
-      Script: {instanceID: 18432}
+      Script: {instanceID: 18430}
     - Class: 114
-      Script: {instanceID: 19026}
+      Script: {instanceID: 19024}
     - Class: 114
-      Script: {instanceID: 19810}
+      Script: {instanceID: 19808}
     - Class: 114
-      Script: {instanceID: 20240}
+      Script: {instanceID: 20238}
     - Class: 114
-      Script: {instanceID: 20520}
+      Script: {instanceID: 20518}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20732}
     - Class: 114
-      Script: {instanceID: 21194}
+      Script: {instanceID: 21192}
     - Class: 114
-      Script: {instanceID: 21202}
+      Script: {instanceID: 21200}
     - Class: 114
       Script: {instanceID: 22218}
     - Class: 115
@@ -284,19 +289,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 18264}
     - Class: 114
-      Script: {instanceID: 18528}
+      Script: {instanceID: 18526}
     - Class: 114
-      Script: {instanceID: 18872}
+      Script: {instanceID: 18870}
     - Class: 114
-      Script: {instanceID: 20240}
+      Script: {instanceID: 20238}
     - Class: 114
-      Script: {instanceID: 20520}
+      Script: {instanceID: 20518}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20732}
     - Class: 114
-      Script: {instanceID: 21194}
+      Script: {instanceID: 21192}
     - Class: 114
-      Script: {instanceID: 21516}
+      Script: {instanceID: 21514}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -353,43 +358,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17782}
     - Class: 114
+      Script: {instanceID: 17788}
+    - Class: 114
       Script: {instanceID: 17984}
     - Class: 114
       Script: {instanceID: 18264}
     - Class: 114
-      Script: {instanceID: 18386}
+      Script: {instanceID: 19024}
     - Class: 114
-      Script: {instanceID: 19026}
+      Script: {instanceID: 19240}
     - Class: 114
-      Script: {instanceID: 19242}
+      Script: {instanceID: 19254}
     - Class: 114
-      Script: {instanceID: 19256}
+      Script: {instanceID: 19468}
     - Class: 114
-      Script: {instanceID: 19470}
+      Script: {instanceID: 19502}
     - Class: 114
-      Script: {instanceID: 19504}
+      Script: {instanceID: 20016}
     - Class: 114
-      Script: {instanceID: 20018}
+      Script: {instanceID: 20074}
     - Class: 114
-      Script: {instanceID: 20076}
+      Script: {instanceID: 20122}
     - Class: 114
-      Script: {instanceID: 20124}
+      Script: {instanceID: 20192}
     - Class: 114
-      Script: {instanceID: 20194}
+      Script: {instanceID: 20518}
     - Class: 114
-      Script: {instanceID: 20520}
+      Script: {instanceID: 20732}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20880}
     - Class: 114
-      Script: {instanceID: 20882}
+      Script: {instanceID: 21098}
     - Class: 114
-      Script: {instanceID: 21100}
+      Script: {instanceID: 21192}
     - Class: 114
-      Script: {instanceID: 21194}
+      Script: {instanceID: 21200}
     - Class: 114
-      Script: {instanceID: 21202}
+      Script: {instanceID: 21592}
     - Class: 114
-      Script: {instanceID: 21944}
+      Script: {instanceID: 21942}
     - Class: 114
       Script: {instanceID: 22218}
     - Class: 115
@@ -465,7 +472,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: ec730f6fae3b626464de9fe8a30e3d1a
+      Hash: 6a20c0c27f1a68f35f261f7f05a9289a
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ShowAppearance
@@ -525,7 +532,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: ec7d8f7179c59678ba6382001d2a34c6
+      Hash: 53fbb2045b82c39393d7244c930a0b13
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: StartGame
@@ -667,12 +674,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: TimeFound
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -849,7 +850,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: 131fe935d690ae181ac9349aa51aa99f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: DropFound

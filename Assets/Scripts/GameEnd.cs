@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,20 +23,33 @@ public class GameEnd : MonoBehaviour
     GameObject Text2;
     int[] wrong1;
     int[] wrong2;
+    List<QAPair> questions = new List<QAPair>();
+    Data data;
+    int subject;
+    int[] parts;
     void Start()
     {
+        parts = PlayerPrefsX.GetIntArray("parts");
+        subject = PlayerPrefs.GetInt("subject");
         Dictionary<int, TextAsset> stp = new Dictionary<int, TextAsset>()
         {
             {0,physics },
             {1,chinese},
             {2,chemistry}
         };
-        Dictionary<string, string> questions = new Dictionary<string, string>();
-        Data data = JsonUtility.FromJson<Data>(stp[PlayerPrefs.GetInt("subject")].text);
-        foreach (QAPair item in data.questions)
+        data = JsonUtility.FromJson<Data>(stp[subject].text);
+        foreach (QAPair q in data.questions)
         {
-            questions[item.question] = item.answer;
+            for (int i = 0; i < parts.Length; i++)
+            {
+                if (q.part == ShowAppearance.fdic[subject][parts[i]])
+                {
+                    questions.Add(q);
+                    break;
+                }
+            }
         }
+        data.questions = questions;
         score1 = PlayerPrefs.GetInt("Score1");
         score2 = PlayerPrefs.GetInt("Score2");
         accuracy1 = PlayerPrefs.GetFloat("Accuracy1");
@@ -87,7 +101,7 @@ public class GameEnd : MonoBehaviour
         {
             foreach (int i in wrong1)
             {
-                wrong1List.Add(m++.ToString() + "." + data.questions[i].question + " : " + questions[data.questions[i].question]);
+                wrong1List.Add(m++.ToString() + "." + data.questions[i].question + " : " + data.questions[i].answer);
                 wrong1Text = string.Join("\n", wrong1List);
             }
         }
@@ -97,7 +111,7 @@ public class GameEnd : MonoBehaviour
         {
             foreach (int i in wrong2)
             {
-                wrong2List.Add(m++.ToString() + "." + data.questions[i].question + " : " + questions[data.questions[i].question]);
+                wrong2List.Add(m++.ToString() + "." + data.questions[i].question + " : " + data.questions[i].answer);
                 wrong2Text = string.Join("\n", wrong2List);
             }
         }
